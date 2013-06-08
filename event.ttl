@@ -1,0 +1,1273 @@
+@prefix schema:  <http://schema.org/> .
+@prefix rdfa:    <http://www.w3.org/ns/rdfa#> .
+@prefix md:      <http://www.w3.org/ns/md#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xhv:     <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix og:      <http://ogp.me/ns#> .
+@prefix fb:      <http://www.facebook.com/2008/fbml> .
+
+<http://eventful.com/sanfrancisco_ca/events/jason-mraz-/E0-001-054972698-9>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Jason Mraz
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/004/196/539-2.gif_/jason-mraz-39.gif> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Jason Mraz
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/jason-mraz-/E0-001-054972698-9>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/jason-mraz-/P0-001-000001223-5>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      September 1, 2013
+      Sunday   7:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/family_fun_kids>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Family
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/performing_arts>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Performing Arts
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/conocer-stella-y-dot-stella-dot-mission-me-/E0-001-057650057-2>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      ¡Conocer Stella y Dot! Stella & Dot Mission Meet-up
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:description " " ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/014/130/028-2.jpeg_/conocer-stella-y-dot-stella-dot-mission-meetup-28.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94110" ;
+                                      schema:streetAddress
+                                              "2475 Mission Street"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=2475+Mission+Street,+San+Francisco,+California,+94110,+United+States&hl=en> ;
+                            schema:name "Cafe La Taza" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/cafe-la-taza-/V0-001-007013019-0>
+                          ] ;
+                  schema:name """
+    
+      ¡Conocer Stella y Dot! Stella & Dot Mission Meet-up
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets eventbrite.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/conocer-stella-y-dot-stella-dot-mission-me-/E0-001-057597152-4>
+                          ] ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 20, 2013
+      Thursday   9:30 AM - 10:15 AM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_rap_hiphop>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          Hip Hop/Rap
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_dance>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          Dance
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_rock>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          Rock
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/cheech-chong-special-guest-war-/E0-001-057384958-6>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Cheech & Chong With Special Guest War
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/003/650/291-3.jpeg_/cheech-and-chong-91.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Cheech & Chong With Special Guest War
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/cheech-chong-special-guest-war-/E0-001-057384958-6>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/cheech-and-chong-/P0-001-000184223-5>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      August 10, 2013
+      Saturday   7:30 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_metal>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          Heavy Metal
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/best-tchaikovsky-san-francisco-symphony-/E0-001-057384953-1>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Best Of Tchaikovsky With The San Francisco Symphony
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/014/018/172-3.jpeg_/best-tchaikovsky-san-francisco-symphony-72.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Best Of Tchaikovsky With The San Francisco Symphony
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets gigaticket.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/best-tchaikovsky-san-francisco-symphony-/E0-001-057384953-1>
+                          ] ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      July 20, 2013
+      Saturday   7:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_rb>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          R&B/Soul
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/weezer-/E0-001-056159036-8>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Weezer
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:description " " ;
+                  schema:image <http://s3.evcdn.com/images/edpborder500/I0-001/004/190/782-0.jpeg_/weezer-82.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Weezer
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/weezer-/E0-001-056159036-8>
+                          ] ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/weezer-/P0-001-000001995-5>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      July 25, 2013
+      Thursday   7:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/singles_social>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Nightlife
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/counting-crows-wallflowers-/E0-001-056918667-5>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Counting Crows with The Wallflowers
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:description " " ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/000/182/488-6.jpg_/counting-crows-88.jpg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Counting Crows with The Wallflowers
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/counting-crows-wallflowers-/E0-001-056918667-5>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/counting-crows-/P0-001-000001856-7>
+                            ] [ a       schema:People ;
+                              schema:name <http://eventful.com/performers/the-wallflowers-/P0-001-000092365-8>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      July 18, 2013
+      Thursday   7:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/sting-back-bass-/E0-001-054672705-7>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      STING: BACK TO BASS
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/000/200/223-2.jpg_/sting-23.jpg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      STING: BACK TO BASS
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/sting-back-bass-/E0-001-054672705-7>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/sting-/P0-001-000010040-6>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 2, 2013
+      Sunday   8:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/steve-miller-band-/E0-001-055523241-8>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Steve Miller Band
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s2.evcdn.com/images/edpborder500/I0-001/010/426/529-4.jpeg_/steve-miller-band-29.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Steve Miller Band
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/steve-miller-band-/E0-001-055523241-8>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/steve-miller-band-/P0-001-000042797-8>
+                            ] [ a       schema:People ;
+                              schema:name <http://eventful.com/performers/doobie-brothers-/P0-001-000038236-5>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 21, 2013
+      Friday   7:30 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/jason-bonham-official-/E0-001-055799141-8>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Jason Bonham - Official
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s2.evcdn.com/images/edpborder500/I0-001/003/654/761-5.png_/jason-bonham-61.png> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Jason Bonham - Official
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/jason-bonham-/P0-001-000240308-8>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      August 28, 2013
+      Wednesday   7:31 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/americanarama-festival-music-featuring-bob-/E0-001-056813862-6>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Americanarama - Festival of Music featuring Bob Dylan and His Band with Wilco, My Morning Jacket and Richard Thompson
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/004/119/999-9.jpeg_/bob-dylan-99.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Americanarama - Festival of Music featuring Bob Dylan and His Band with Wilco, My Morning Jacket and Richard Thompson
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets stubhub.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/americanarama-festival-music-featuring-bob-/E0-001-056813862-6>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/bob-dylan-/P0-001-000008723-9>
+                            ] [ a       schema:People ;
+                              schema:name <http://eventful.com/performers/my-morning-jacket-/P0-001-000045600-4>
+                            ] [ a       schema:People ;
+                              schema:name <http://eventful.com/performers/wilco-/P0-001-000000146-0>
+                            ] [ a       schema:People ;
+                              schema:name <http://eventful.com/performers/richard-thompson-/P0-001-000009283-3>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      July 11, 2013
+      Thursday   7:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/sammy-hagar-four-decades-rock-/E0-001-057169515-8>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Sammy Hagar Four Decades of Rock
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s3.evcdn.com/images/edpborder500/I0-001/004/225/654-7.jpeg_/sammy-hagar-54.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Sammy Hagar Four Decades of Rock
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/sammy-hagar-four-decades-rock-/E0-001-057169515-8>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/sammy-hagar-/P0-001-000003221-1>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      September 7, 2013
+      Saturday   7:30 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/steely-dan-/E0-001-056473919-9>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Steely Dan
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s3.evcdn.com/images/edpborder500/I0-001/004/211/994-5.jpeg_/steely-dan-94.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Steely Dan
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/steely-dan-/E0-001-056473919-9>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/steely-dan-/P0-001-000001164-3>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      August 17, 2013
+      Saturday   8:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_pop>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          Pop
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/they-might-giants-/E0-001-053849432-1>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      They Might Be Giants
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/004/182/636-7.jpeg_/they-might-be-giants-36.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94102" ;
+                                      schema:streetAddress
+                                              "982 Market Street"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=982+Market+Street,+San+Francisco,+California,+94102,+United+States&hl=en> ;
+                            schema:name "Warfield Theatre" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/warfield-theatre-/V0-001-000893329-9>
+                          ] ;
+                  schema:name """
+    
+      They Might Be Giants
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/they-might-giants-/E0-001-053849432-1>
+                          ] ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/they-might-be-giants-/P0-001-000076627-5>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 14, 2013
+      Friday   8:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events>
+      og:site_name "Eventful"@en ;
+      <http://www.facebook.com/2008/fbmlapp_id>
+              "294833066685"@en ;
+      xhv:alternate <http://eventful.com/atom/sanfrancisco/events> , <http://eventful.com/ical/sanfrancisco/events> ;
+      xhv:icon <http://eventful.com/favicon.ico> ;
+      xhv:stylesheet <http://s1.evcdn.com/manifest/72cf5e045468331b8e33d86db59781fb.css> .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_electronic>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          Electronic
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/festivals_parades>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Festivals
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_country>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          Country
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/free-story-time-/E0-001-056519753-0>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Free Story Time
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:description " Free story, song and dance time!  " ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/013/954/480-1.jpeg_/free-story-time-80.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Rare Device boutique and art gallery" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/rare-device-boutique-and-art-gallery-/V0-001-006922264-4>
+                          ] ;
+                  schema:name """
+    
+      Free Story Time
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 7, 2013
+      Friday  11:00 AM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/imagine-dragons-/E0-001-054787709-4>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Imagine Dragons
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/008/085/511-9.jpeg_/imagine-dragons-11.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Imagine Dragons
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/imagine-dragons-/E0-001-054787709-4>
+                          ] ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/imagine-dragons-/P0-001-000253168-2>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      May 31, 2013
+      Friday   7:30 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/fall-out-boy-/E0-001-055569992-3>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Fall Out Boy
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/000/194/783-1.jpg_/fall-out-boy-83.jpg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94111" ;
+                                      schema:streetAddress
+                                              "Pier 27 and 29"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
+                            schema:name "America's Cup Pavilion" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                          ] ;
+                  schema:name """
+    
+      Fall Out Boy
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/fall-out-boy-/E0-001-055569992-3>
+                          ] ;
+                  schema:performer ([ a       schema:People ;
+                              schema:name <http://eventful.com/performers/fall-out-boy-/P0-001-000000926-8>
+                            ] [ a       schema:People ;
+                              schema:name <http://eventful.com/performers/panic-at-the-disco-/P0-001-000031767-1>
+                            ]) ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      September 21, 2013
+      Saturday   7:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Browse
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/music_alternative>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Concerts /
+        
+      
+        
+          Alternative
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/categories/sports>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+  
+      San Francisco, CA /
+      
+        
+          Sports
+        
+      
+    
+""")
+                ] []) ;
+      rdfa:usesVocabulary schema: .

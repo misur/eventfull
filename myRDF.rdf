@@ -1,0 +1,557 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:j.0="http://thewebsemantic.com/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:schema="http://schema.org/"
+    xmlns:j.1="http://java.net/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:j.2="http://schema.org/ " > 
+  <rdf:Description rdf:about="http://schema.org/Location/bc7e306b-4930-41b6-adac-a5b6db8473a9">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/b06ff574-16de-4126-8917-3b4fda2a7dd5"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/1134942382">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/b06ff574-16de-4126-8917-3b4fda2a7dd5">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/892018122">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/20727c8c-f26e-4d93-8963-6b1fe49708b3">
+    <schema:performer rdf:resource="http://schema.org/Person/727de8f7-f596-44ea-ae98-96dac5b8ac9f"/>
+    <schema:location rdf:resource="http://schema.org/Location/2d28445a-2759-4b64-bbf6-283b732bf2ca"/>
+    <schema:image rdf:resource="http://java.net/URL/-462621351"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      STING: BACK TO BASS
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/1bc2cc58-a8e0-46db-8168-8adfa264daeb">
+    <schema:performer rdf:resource="http://schema.org/Person/1061185d-f6b9-4152-9a0f-a3d3dc93b1f4"/>
+    <schema:location rdf:resource="http://schema.org/Location/701b083b-f83d-462e-8eec-b91b71598ea2"/>
+    <schema:image rdf:resource="http://java.net/URL/447685427"/>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Counting Crows with The Wallflowers
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/04261ee3-35d3-4e1a-af85-329554cb48a1">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/imagine-dragons-/P0-001-000253168-2</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/4e9b434e-3e20-46bc-bbb9-e25f523f39a7">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/2d28445a-2759-4b64-bbf6-283b732bf2ca">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/3ed0903e-73f2-474d-89cc-efee0b6298ba"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/1713646063">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/76a2d8e2-4a42-41bb-be10-7e3cd4a96985">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/588603d6-d516-4dcb-81b5-5f917e32ce0e">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/weezer-/P0-001-000001995-5</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/74acadb6-903f-40d4-bca7-56b044004e37">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/91f30c17-2985-441b-adce-6f6a4cedaa58"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/1cdfe049-a709-455d-8188-0588c1e4617f">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/jason-mraz-/P0-001-000001223-5</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/1184445919">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-1618369059">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/e75ab9e8-739f-40c9-b805-705e8c7571e6">
+    <schema:performer rdf:resource="http://schema.org/Person/0f7218cd-88ad-454b-993a-fe825a99d813"/>
+    <schema:location rdf:resource="http://schema.org/Location/04dd7f28-8900-4c8a-9c26-4a95f75af499"/>
+    <schema:image rdf:resource="http://java.net/URL/1344943245"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Fall Out Boy
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/f5c6e24a-3afd-423f-88e9-97e1fa4ba02b">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/97ae17ed-5088-45d0-b8c9-442cd1d645e2"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/8b388511-4431-4cba-9e2e-9bda4747b8ef">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-462621351">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/8af1b3e5-f690-4c1b-b493-9dfe5767a5f1">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94102</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">982 Market Street</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/2028266453">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/0f7218cd-88ad-454b-993a-fe825a99d813">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/fall-out-boy-/P0-001-000000926-8</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/be5bf051-eaa0-4b7e-afad-4c1e3fe57697">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/cheech-and-chong-/P0-001-000184223-5</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/1894731649">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/770907bb-45d6-4681-94c3-5862109be6f1">
+    <schema:map rdf:resource="http://java.net/URL/-1339538577"/>
+    <schema:url rdf:resource="http://java.net/URL/-554001603"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cafe La Taza</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/9128bd5a-51c8-4bd5-b68f-5db0e81a976b"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/82540286-e970-47fb-ba3a-c3340e50acdf">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/2a386009-2b1f-4388-9050-8043a5854f4c">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/8b388511-4431-4cba-9e2e-9bda4747b8ef"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-1832494889">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/1564852486">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/3ed0903e-73f2-474d-89cc-efee0b6298ba">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/ae9867f0-3143-431e-9282-25c4d71493ec">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/steve-miller-band-/P0-001-000042797-8</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/9128bd5a-51c8-4bd5-b68f-5db0e81a976b">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94110</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2475 Mission Street</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person">
+    <j.0:javaclass>domain.Person</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/351ceaf7-015e-4809-b26c-9f9d9481fd8a">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/c0bca31a-390b-4718-9077-022d46ad7a03">
+    <schema:location rdf:resource="http://schema.org/Location/ef26fc59-e25b-4094-9bd8-9cb2b8d4e566"/>
+    <schema:image rdf:resource="http://java.net/URL/709545705"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Best Of Tchaikovsky With The San Francisco Symphony
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/f689a765-8e80-4c06-b46e-d6d94a5c3983">
+    <schema:performer rdf:resource="http://schema.org/Person/d16cc5a9-68d0-490b-8d61-11d0259ff06f"/>
+    <schema:location rdf:resource="http://schema.org/Location/b683d29e-4d58-4e9e-b7a2-feebae3fa92f"/>
+    <schema:image rdf:resource="http://java.net/URL/-1618369059"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Americanarama - Festival of Music featuring Bob Dylan and His Band with Wilco, My Morning Jacket and Richard Thompson
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/d16cc5a9-68d0-490b-8d61-11d0259ff06f">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/bob-dylan-/P0-001-000008723-9</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/9e478bf8-4226-49bb-83f0-b519c7c651f2">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/steely-dan-/P0-001-000001164-3</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/1710047230">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/91f30c17-2985-441b-adce-6f6a4cedaa58">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/0037a207-9de7-4534-ad10-8c5352a796a0">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-794670193">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-1339538577">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/f96867e1-76af-498d-865c-d3b354ff24d8">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/bf51a05e-ef2b-422a-8b47-1887b9de8b6d"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/9f6312a6-e99c-40aa-ad5d-ead9c794664d">
+    <schema:performer rdf:resource="http://schema.org/Person/588603d6-d516-4dcb-81b5-5f917e32ce0e"/>
+    <schema:location rdf:resource="http://schema.org/Location/f96867e1-76af-498d-865c-d3b354ff24d8"/>
+    <schema:image rdf:resource="http://java.net/URL/265652769"/>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Weezer
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-455998279">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/02717bed-c44e-4767-820e-cf4a3de59eb6">
+    <schema:map rdf:resource="http://java.net/URL/1184445919"/>
+    <schema:url rdf:resource="http://java.net/URL/1894731649"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warfield Theatre</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/8af1b3e5-f690-4c1b-b493-9dfe5767a5f1"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/d3cc181f-7083-4e77-a521-8b283718ae2f">
+    <schema:performer rdf:resource="http://schema.org/Person/eb1ed859-240c-4465-acd7-734c4364f8d6"/>
+    <schema:location rdf:resource="http://schema.org/Location/bc7e306b-4930-41b6-adac-a5b6db8473a9"/>
+    <schema:image rdf:resource="http://java.net/URL/-1046429992"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Jason Bonham - Official
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/297ad92e-4f1b-4eee-a5c7-ed8b38b0215d">
+    <schema:map rdf:resource="http://java.net/URL/-455998279"/>
+    <schema:url rdf:resource="http://java.net/URL/892018122"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rare Device boutique and art gallery</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/4e9b434e-3e20-46bc-bbb9-e25f523f39a7"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/709545705">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/8ac131f8-d7e7-4321-8420-ea939821369b">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL">
+    <j.0:javaclass>java.net.URL</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/1344943245">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/bf51a05e-ef2b-422a-8b47-1887b9de8b6d">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/727de8f7-f596-44ea-ae98-96dac5b8ac9f">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/sting-/P0-001-000010040-6</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/254170997">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-1683450221">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/7d7baa73-193b-47a9-9895-e1b633d722c5">
+    <schema:performer rdf:resource="http://schema.org/Person/be5bf051-eaa0-4b7e-afad-4c1e3fe57697"/>
+    <schema:location rdf:resource="http://schema.org/Location/f5c6e24a-3afd-423f-88e9-97e1fa4ba02b"/>
+    <schema:image rdf:resource="http://java.net/URL/1713646063"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Cheech &amp; Chong With Special Guest War
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/076c774a-cb13-47f4-b24d-88dab3d27f3d">
+    <schema:location rdf:resource="http://schema.org/Location/297ad92e-4f1b-4eee-a5c7-ed8b38b0215d"/>
+    <schema:image rdf:resource="http://java.net/URL/2028266453"/>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Free story, song and dance time!  </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Free Story Time
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-1046429992">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event">
+    <j.0:javaclass>domain.Event</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/447685427">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/cef57be9-f3c1-4ac3-9b1e-5583c7ed676b">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/3faf3d0a-6a63-4a44-aab8-bc6188b2b926"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/0af0c213-5167-43ae-ac92-45be5c755979">
+    <schema:performer rdf:resource="http://schema.org/Person/04261ee3-35d3-4e1a-af85-329554cb48a1"/>
+    <schema:location rdf:resource="http://schema.org/Location/3b48df73-b3e1-4eef-ab01-34effab1ba9e"/>
+    <schema:image rdf:resource="http://java.net/URL/1134942382"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Imagine Dragons
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/5622ecee-918a-4280-9e05-1314b5e28256">
+    <schema:location rdf:resource="http://schema.org/Location/770907bb-45d6-4681-94c3-5862109be6f1"/>
+    <schema:image rdf:resource="http://java.net/URL/-1971922506"/>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      ¡Conocer Stella y Dot! Stella &amp; Dot Mission Meet-up
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/eb1ed859-240c-4465-acd7-734c4364f8d6">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/jason-bonham-/P0-001-000240308-8</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/12ecf6fd-bc47-4eb4-bd87-59746ddb1760">
+    <schema:performer rdf:resource="http://schema.org/Person/ae9867f0-3143-431e-9282-25c4d71493ec"/>
+    <schema:location rdf:resource="http://schema.org/Location/2a386009-2b1f-4388-9050-8043a5854f4c"/>
+    <schema:image rdf:resource="http://java.net/URL/1564852486"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Steve Miller Band
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-1971922506">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/e0de6bfb-2da9-4c2e-9a80-2976536e94df">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/0037a207-9de7-4534-ad10-8c5352a796a0"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/819a4f29-cf2b-4c81-b6bb-50e7cd030638">
+    <schema:performer rdf:resource="http://schema.org/Person/060649ca-6068-4b18-8175-9f59be4b4937"/>
+    <schema:location rdf:resource="http://schema.org/Location/02717bed-c44e-4767-820e-cf4a3de59eb6"/>
+    <schema:image rdf:resource="http://java.net/URL/-1832494889"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      They Might Be Giants
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://thewebsemantic.com/javaclass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/3b48df73-b3e1-4eef-ab01-34effab1ba9e">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/eb4ad97d-4482-456f-b15e-d348061a94a8"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/03476a86-475b-4208-918d-3594cd1090a3">
+    <schema:performer rdf:resource="http://schema.org/Person/9e478bf8-4226-49bb-83f0-b519c7c651f2"/>
+    <schema:location rdf:resource="http://schema.org/Location/cef57be9-f3c1-4ac3-9b1e-5583c7ed676b"/>
+    <schema:image rdf:resource="http://java.net/URL/-956930160"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Steely Dan
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/3faf3d0a-6a63-4a44-aab8-bc6188b2b926">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/ef26fc59-e25b-4094-9bd8-9cb2b8d4e566">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/8ac131f8-d7e7-4321-8420-ea939821369b"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Place">
+    <j.0:javaclass>domain.Location</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/b683d29e-4d58-4e9e-b7a2-feebae3fa92f">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/82540286-e970-47fb-ba3a-c3340e50acdf"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/eb4ad97d-4482-456f-b15e-d348061a94a8">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/PostalAddress">
+    <j.0:javaclass>domain.Address</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-956930160">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Address/97ae17ed-5088-45d0-b8c9-442cd1d645e2">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/2f27262a-7e35-4b13-9deb-cd5e73fa4b44">
+    <schema:performer rdf:resource="http://schema.org/Person/b0ca07dd-d9e1-4eda-b864-9828b01b474e"/>
+    <schema:location rdf:resource="http://schema.org/Location/e0de6bfb-2da9-4c2e-9a80-2976536e94df"/>
+    <schema:image rdf:resource="http://java.net/URL/-794670193"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Sammy Hagar Four Decades of Rock
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/265652769">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/060649ca-6068-4b18-8175-9f59be4b4937">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/they-might-be-giants-/P0-001-000076627-5</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/b0ca07dd-d9e1-4eda-b864-9828b01b474e">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/sammy-hagar-/P0-001-000003221-1</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://java.net/URL/-554001603">
+    <rdf:type rdf:resource="http://java.net/URL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/701b083b-f83d-462e-8eec-b91b71598ea2">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/351ceaf7-015e-4809-b26c-9f9d9481fd8a"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Location/04dd7f28-8900-4c8a-9c26-4a95f75af499">
+    <schema:map rdf:resource="http://java.net/URL/254170997"/>
+    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://schema.org/Address/76a2d8e2-4a42-41bb-be10-7e3cd4a96985"/>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person/1061185d-f6b9-4152-9a0f-a3d3dc93b1f4">
+    <j.2:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/counting-crows-/P0-001-000001856-7</j.2:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event/094e3c3e-e9e9-4a0c-bbeb-d71071397908">
+    <schema:performer rdf:resource="http://schema.org/Person/1cdfe049-a709-455d-8188-0588c1e4617f"/>
+    <schema:location rdf:resource="http://schema.org/Location/74acadb6-903f-40d4-bca7-56b044004e37"/>
+    <schema:image rdf:resource="http://java.net/URL/-1683450221"/>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Jason Mraz
+
+     in San Francisco</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,614 @@
+@prefix schema:  <http://schema.org/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://schema.org/Person/765c36dd-679f-42da-a0aa-53f64a7403c5>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/jason-mraz-/P0-001-000001223-5"^^xsd:string .
+
+<http://schema.org/Event/e0928e66-68b0-4872-8da7-1da8b01d283c>
+      a       schema:Event ;
+      schema:description " "^^xsd:string ;
+      schema:image <http://java.net/URL/265652769> ;
+      schema:location <http://schema.org/Location/e3ad9584-1b9d-4c70-9a19-92181479f9b5> ;
+      schema:name """
+    
+      Weezer
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/5ba8b755-9824-45d5-820b-5e7457bc1192> .
+
+<http://schema.org/Location/b4466ea5-0d9c-4976-a728-6aa0c20ad53b>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/7ffc8c0b-baaf-40b0-905c-d4c70876e440> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Person/67da038e-bb83-4d3d-a016-3b48ba2c2578>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/steve-miller-band-/P0-001-000042797-8"^^xsd:string .
+
+<http://java.net/URL/1134942382>
+      a       <http://java.net/URL> .
+
+<http://java.net/URL/892018122>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Address/4ab8c204-2a7d-46c1-8fbb-30102a947d38>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://java.net/URL/1713646063>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Address/eaabf1ea-21bf-4b60-bd15-2199d201a33e>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://schema.org/Address/b9a16b65-4cb7-485a-9f9d-1ba206b90096>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94102"^^xsd:string ;
+      schema:streetAddress
+              "982 Market Street"^^xsd:string .
+
+<http://schema.org/Event/b3718349-64be-4832-bbed-66fee8127fb1>
+      a       schema:Event ;
+      schema:description " "^^xsd:string ;
+      schema:image <http://java.net/URL/447685427> ;
+      schema:location <http://schema.org/Location/ba46c697-9122-48e1-9448-01f377d118e9> ;
+      schema:name """
+    
+      Counting Crows with The Wallflowers
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/4d2a57e4-e915-4e1f-8d55-fbf9d2f5e0ea> .
+
+<http://java.net/URL/1184445919>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Location/2ce2b694-662c-416c-86be-397f6eca7431>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/78cdef20-d5e0-4a0c-8355-e5d848101624> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://java.net/URL/-1618369059>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Address/925742e5-37af-4061-b748-57c360cda032>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://java.net/URL/-462621351>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Event/2fca730a-f53a-4c31-8926-950cd76e5259>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/1564852486> ;
+      schema:location <http://schema.org/Location/e45f2359-1504-4850-992b-5e3d0c4d9ba2> ;
+      schema:name """
+    
+      Steve Miller Band
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/67da038e-bb83-4d3d-a016-3b48ba2c2578> .
+
+<http://java.net/URL/2028266453>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Address/447aa0a5-7dad-419d-a0b1-299faa2585e5>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string .
+
+<http://schema.org/Location/77c072b7-2d6f-4a9f-a3a9-3ca02b1e9eb7>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/4ab8c204-2a7d-46c1-8fbb-30102a947d38> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Address/7f399710-ea69-429f-bb94-598bcd1483b3>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://java.net/URL/1894731649>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Event/66e715a4-aede-4ba8-8c73-f23869cd729c>
+      a       schema:Event ;
+      schema:description " Free story, song and dance time!  "^^xsd:string ;
+      schema:image <http://java.net/URL/2028266453> ;
+      schema:location <http://schema.org/Location/0c7aa9ec-e956-404d-a2eb-f75d27830ef7> ;
+      schema:name """
+    
+      Free Story Time
+
+     in San Francisco"""^^xsd:string .
+
+<http://schema.org/Event/5b90bd09-a51b-4177-a3db-cbafa7e52712>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/-794670193> ;
+      schema:location <http://schema.org/Location/6b41c348-cbc8-4fd5-bbe2-20780db8117f> ;
+      schema:name """
+    
+      Sammy Hagar Four Decades of Rock
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/89add76b-d77c-4091-ac57-96e014f3b3b4> .
+
+<http://schema.org/Location/6ff62923-bdd4-41b7-9cb0-5f27b278a52b>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/1e75b0e4-309e-469d-8e60-79858b6ccb1d> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Person/bc721a43-98fb-4c1a-86df-b4705b1fef1e>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/steely-dan-/P0-001-000001164-3"^^xsd:string .
+
+<http://schema.org/Address/fc9c5962-a308-4fee-a1f4-72476c7df73b>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://schema.org/Address/3b49ac04-6522-4682-a1a7-715d544d98d9>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://schema.org/Address/45ef479f-f061-448a-907e-bffc5f914fbd>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://schema.org/Person/e835df3d-30ec-4246-8fdf-6aa3c1995ce8>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/fall-out-boy-/P0-001-000000926-8"^^xsd:string .
+
+<http://java.net/URL/-1832494889>
+      a       <http://java.net/URL> .
+
+<http://java.net/URL/1564852486>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Event/83eb8104-de6b-45c5-a1cc-3ff7397374e4>
+      a       schema:Event ;
+      schema:description " "^^xsd:string ;
+      schema:image <http://java.net/URL/-1971922506> ;
+      schema:location <http://schema.org/Location/3c65d3d3-7ea9-439f-8ea6-9b32f0931a79> ;
+      schema:name """
+    
+      ¡Conocer Stella y Dot! Stella & Dot Mission Meet-up
+
+     in San Francisco"""^^xsd:string .
+
+<http://schema.org/Person/71d29a99-5222-4cb9-b523-2f55ab9dde60>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/sting-/P0-001-000010040-6"^^xsd:string .
+
+<http://schema.org/Event/64f66b0d-0376-44e4-aeca-a410d7520493>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/-1683450221> ;
+      schema:location <http://schema.org/Location/b4466ea5-0d9c-4976-a728-6aa0c20ad53b> ;
+      schema:name """
+    
+      Jason Mraz
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/765c36dd-679f-42da-a0aa-53f64a7403c5> .
+
+schema:Person
+      a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+      <http://thewebsemantic.com/javaclass>
+              "domain.Person" .
+
+<http://schema.org/Person/272ac896-5932-45bf-98b6-90bbb803f71c>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/they-might-be-giants-/P0-001-000076627-5"^^xsd:string .
+
+<http://schema.org/Event/13674259-ace2-4207-8351-f395fa49e5b8>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/709545705> ;
+      schema:location <http://schema.org/Location/489bd379-2a5f-485e-b665-c45f25fa2d4b> ;
+      schema:name """
+    
+      Best Of Tchaikovsky With The San Francisco Symphony
+
+     in San Francisco"""^^xsd:string .
+
+<http://schema.org/Person/4d2a57e4-e915-4e1f-8d55-fbf9d2f5e0ea>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/counting-crows-/P0-001-000001856-7"^^xsd:string .
+
+<http://schema.org/Location/ba46c697-9122-48e1-9448-01f377d118e9>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/eaabf1ea-21bf-4b60-bd15-2199d201a33e> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://java.net/URL/1710047230>
+      a       <http://java.net/URL> .
+
+<http://java.net/URL/-794670193>
+      a       <http://java.net/URL> .
+
+<http://java.net/URL/-1339538577>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Person/746ead5e-b8b6-43a4-b7d0-45e88cba2c0b>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/bob-dylan-/P0-001-000008723-9"^^xsd:string .
+
+<http://schema.org/Address/7ffc8c0b-baaf-40b0-905c-d4c70876e440>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://java.net/URL/-455998279>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Address/78cdef20-d5e0-4a0c-8355-e5d848101624>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://java.net/URL/709545705>
+      a       <http://java.net/URL> .
+
+<http://java.net/URL>
+      a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+      <http://thewebsemantic.com/javaclass>
+              "java.net.URL" .
+
+<http://java.net/URL/1344943245>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Location/3c65d3d3-7ea9-439f-8ea6-9b32f0931a79>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/7c64fe52-ae80-4b61-8eff-2e85796a6d6c> ;
+      schema:map <http://java.net/URL/-1339538577> ;
+      schema:name "Cafe La Taza"^^xsd:string ;
+      schema:url <http://java.net/URL/-554001603> .
+
+<http://schema.org/Location/93fa7c05-3b34-4b0d-9091-706d9c1b02d4>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/b9a16b65-4cb7-485a-9f9d-1ba206b90096> ;
+      schema:map <http://java.net/URL/1184445919> ;
+      schema:name "Warfield Theatre"^^xsd:string ;
+      schema:url <http://java.net/URL/1894731649> .
+
+<http://schema.org/Event/77db7914-c231-4b74-a664-7218de9579af>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/1344943245> ;
+      schema:location <http://schema.org/Location/2ce2b694-662c-416c-86be-397f6eca7431> ;
+      schema:name """
+    
+      Fall Out Boy
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/e835df3d-30ec-4246-8fdf-6aa3c1995ce8> .
+
+<http://java.net/URL/254170997>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Location/6b41c348-cbc8-4fd5-bbe2-20780db8117f>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/cf7c60f4-eb8d-455c-88d0-d96e1dc28ebb> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://java.net/URL/-1683450221>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Person/89add76b-d77c-4091-ac57-96e014f3b3b4>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/sammy-hagar-/P0-001-000003221-1"^^xsd:string .
+
+<http://schema.org/Location/0c7aa9ec-e956-404d-a2eb-f75d27830ef7>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/447aa0a5-7dad-419d-a0b1-299faa2585e5> ;
+      schema:map <http://java.net/URL/-455998279> ;
+      schema:name "Rare Device boutique and art gallery"^^xsd:string ;
+      schema:url <http://java.net/URL/892018122> .
+
+<http://java.net/URL/-1046429992>
+      a       <http://java.net/URL> .
+
+schema:Event
+      a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+      <http://thewebsemantic.com/javaclass>
+              "domain.Event" .
+
+<http://schema.org/Address/1e75b0e4-309e-469d-8e60-79858b6ccb1d>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://schema.org/Event/7267a027-9e03-48a5-8367-be160f787c71>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/1134942382> ;
+      schema:location <http://schema.org/Location/e4c4dc27-73f4-4cdf-be75-c6c3e0178f47> ;
+      schema:name """
+    
+      Imagine Dragons
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/2c9bb192-581b-4c58-9886-41e574549ca7> .
+
+<http://schema.org/Event/f04bff05-2715-4e6f-ac84-5f433619b514>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/-956930160> ;
+      schema:location <http://schema.org/Location/7ba6664d-b81d-458b-bde4-d6f0d93c9262> ;
+      schema:name """
+    
+      Steely Dan
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/bc721a43-98fb-4c1a-86df-b4705b1fef1e> .
+
+<http://schema.org/Event/614995c0-35e9-463a-8058-2f36494b6ab6>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/1713646063> ;
+      schema:location <http://schema.org/Location/785486fc-c496-485a-a486-1d62bd0d8502> ;
+      schema:name """
+    
+      Cheech & Chong With Special Guest War
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/0aaa02fd-9971-4373-99fa-fcc4ada38859> .
+
+<http://java.net/URL/447685427>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Location/769d2744-fe8e-4864-a85c-f789b9142edf>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/a94e6d6f-7a61-4044-9ef0-39207eec2330> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Person/09d8c770-9403-4850-b2ac-3929a128a695>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/jason-bonham-/P0-001-000240308-8"^^xsd:string .
+
+<http://schema.org/Person/0aaa02fd-9971-4373-99fa-fcc4ada38859>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/cheech-and-chong-/P0-001-000184223-5"^^xsd:string .
+
+<http://schema.org/Address/cf7c60f4-eb8d-455c-88d0-d96e1dc28ebb>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://schema.org/Address/7c64fe52-ae80-4b61-8eff-2e85796a6d6c>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94110"^^xsd:string ;
+      schema:streetAddress
+              "2475 Mission Street"^^xsd:string .
+
+<http://schema.org/Location/7ba6664d-b81d-458b-bde4-d6f0d93c9262>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/7f399710-ea69-429f-bb94-598bcd1483b3> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Person/2c9bb192-581b-4c58-9886-41e574549ca7>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/imagine-dragons-/P0-001-000253168-2"^^xsd:string .
+
+<http://java.net/URL/-1971922506>
+      a       <http://java.net/URL> .
+
+<http://thewebsemantic.com/javaclass>
+      a       <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+
+<http://schema.org/Location/e4c4dc27-73f4-4cdf-be75-c6c3e0178f47>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/da016188-02ec-41d7-9e21-8de78be31c16> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+schema:Place
+      a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+      <http://thewebsemantic.com/javaclass>
+              "domain.Location" .
+
+schema:PostalAddress
+      a       <http://www.w3.org/2000/01/rdf-schema#Class> ;
+      <http://thewebsemantic.com/javaclass>
+              "domain.Address" .
+
+<http://java.net/URL/-956930160>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Event/5725b7db-c60a-4c44-9f2c-0794675f5873>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/-462621351> ;
+      schema:location <http://schema.org/Location/77c072b7-2d6f-4a9f-a3a9-3ca02b1e9eb7> ;
+      schema:name """
+    
+      STING: BACK TO BASS
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/71d29a99-5222-4cb9-b523-2f55ab9dde60> .
+
+<http://schema.org/Location/785486fc-c496-485a-a486-1d62bd0d8502>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/3b49ac04-6522-4682-a1a7-715d544d98d9> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Address/a94e6d6f-7a61-4044-9ef0-39207eec2330>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
+
+<http://java.net/URL/265652769>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Event/0e677917-281f-4e58-be5f-1d58d264805e>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/-1618369059> ;
+      schema:location <http://schema.org/Location/6ff62923-bdd4-41b7-9cb0-5f27b278a52b> ;
+      schema:name """
+    
+      Americanarama - Festival of Music featuring Bob Dylan and His Band with Wilco, My Morning Jacket and Richard Thompson
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/746ead5e-b8b6-43a4-b7d0-45e88cba2c0b> .
+
+<http://schema.org/Event/52699e61-5fb9-4636-9ee1-52290930db0b>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/-1046429992> ;
+      schema:location <http://schema.org/Location/769d2744-fe8e-4864-a85c-f789b9142edf> ;
+      schema:name """
+    
+      Jason Bonham - Official
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/09d8c770-9403-4850-b2ac-3929a128a695> .
+
+<http://java.net/URL/-554001603>
+      a       <http://java.net/URL> .
+
+<http://schema.org/Event/1f1e6f41-f5d6-48ab-876e-4c81af175992>
+      a       schema:Event ;
+      schema:image <http://java.net/URL/-1832494889> ;
+      schema:location <http://schema.org/Location/93fa7c05-3b34-4b0d-9091-706d9c1b02d4> ;
+      schema:name """
+    
+      They Might Be Giants
+
+     in San Francisco"""^^xsd:string ;
+      schema:performer <http://schema.org/Person/272ac896-5932-45bf-98b6-90bbb803f71c> .
+
+<http://schema.org/Location/489bd379-2a5f-485e-b665-c45f25fa2d4b>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/925742e5-37af-4061-b748-57c360cda032> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Location/e45f2359-1504-4850-992b-5e3d0c4d9ba2>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/45ef479f-f061-448a-907e-bffc5f914fbd> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Location/e3ad9584-1b9d-4c70-9a19-92181479f9b5>
+      a       schema:Place ;
+      schema:address <http://schema.org/Address/fc9c5962-a308-4fee-a1f4-72476c7df73b> ;
+      schema:map <http://java.net/URL/254170997> ;
+      schema:name "America's Cup Pavilion"^^xsd:string ;
+      schema:url <http://java.net/URL/1710047230> .
+
+<http://schema.org/Person/5ba8b755-9824-45d5-820b-5e7457bc1192>
+      a       schema:Person ;
+      <http://schema.org/ name>
+              "http://eventful.com/performers/weezer-/P0-001-000001995-5"^^xsd:string .
+
+<http://schema.org/Address/da016188-02ec-41d7-9e21-8de78be31c16>
+      a       schema:PostalAddress ;
+      schema:addressLocality
+              "San Francisco"^^xsd:string ;
+      schema:addressRegion
+              "California"^^xsd:string ;
+      schema:postalCode "94111"^^xsd:string ;
+      schema:streetAddress
+              "Pier 27 and 29"^^xsd:string .
