@@ -15,7 +15,7 @@ import util.Constants;
 public class Event extends Thing {
 	@RdfProperty(Constants.SCHEMA + "name")
 	private String name;
-	
+
 	@RdfProperty(Constants.SCHEMA + "description")
 	private String description;
 
@@ -23,7 +23,7 @@ public class Event extends Thing {
 	private URL image;
 
 	@RdfProperty(Constants.SCHEMA + "startDate")
-	private GregorianCalendar startDate;
+	private Date startDate;
 
 	@RdfProperty(Constants.SCHEMA + "location")
 	private Location location;
@@ -33,7 +33,7 @@ public class Event extends Thing {
 
 	@RdfProperty(Constants.SCHEMA + "offers")
 	private AggregateOffer aggregateOffer;
-	
+
 	@RdfProperty(Constants.SCHEMA + "performer")
 	private Person performer;
 
@@ -61,21 +61,9 @@ public class Event extends Thing {
 		this.location = location;
 	}
 
-
-
-
-	public GregorianCalendar getStartDate() {
-		return startDate;
-	}
-
-	public void setStartDate(GregorianCalendar startDate) {
-		this.startDate = startDate;
-	}
-
-	
-	public void show(){
+	public void show() {
 		System.err.println(toString());
-		
+
 	}
 
 	public String getDescription() {
@@ -119,6 +107,8 @@ public class Event extends Thing {
 				+ performer + "]";
 	}
 
-	
+	public void setStartDate(Date startDate) {
+		this.startDate = startDate;
+	}
 
 }

@@ -18,7 +18,7 @@ public class QueryService {
 
 	public List<String> getEventNameByStreetAddress(String streetAddres) {
 		String query = "PREFIX schema: <" + Constants.SCHEMA + "> \n"
-				+ "SELECT  ?name \n" + "WHERE { \n"
+				+ "SELECT  ?name ? \n" + "WHERE { \n"
 				+ "?event a schema:Event; \n" + "schema:name ?name; \n"
 				+ "schema:location ?location .\n"
 				+ "?location a schema:Place; \n"

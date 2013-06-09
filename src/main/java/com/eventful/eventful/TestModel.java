@@ -11,6 +11,7 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.HashSet;
@@ -48,25 +49,21 @@ import domain.Offer;
 import domain.Person;
 
 public class TestModel {
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		File rdf = new File("event.rdf");
 		TestModel m = new TestModel();
-		 m.events(rdf);
+		m.events(rdf);
 
-			RDFModel.getInstance().saveAsFile("myRDF.ttl","TURTLE");
-		
-		
+		 RDFModel.getInstance().saveAsFile("myRDF.rdf","RDF/XML");
+
 	}
-	
-	public  void events(File rdf) {
+
+	public void events(File rdf) {
 
 		try {
 
-			
-			
-			
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
 					.newInstance();
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
@@ -94,14 +91,16 @@ public class TestModel {
 							for (int i = 0; i < nl.getLength(); i++) {
 								if (nl.item(i).getNodeName()
 										.equals("schema:startDate")) {
-									// e.setStartDate(startDate)
+									Date d = editDate(nl.item(i)
+											.getTextContent());
+									e.setStartDate(d);
 								}
 								if (nl.item(i).getNodeName()
 										.equals("schema:performer")) {
-									String id =findIdForPerformer(nl.item(i)
+									String id = findIdForPerformer(nl.item(i)
 											.getAttributes().item(0)
 											.getTextContent());
-									
+
 									e.setPerformer(person(id));
 								}
 								if (nl.item(i).getNodeName()
@@ -120,18 +119,17 @@ public class TestModel {
 									e.setDescription(nl.item(i)
 											.getTextContent());
 								}
-								
-								
+
 								if (nl.item(i).getNodeName()
 										.equals("schema:offers")) {
-//									Object o =offer(nl.item(i)
-//											.getAttributes().item(0)
-//											.getTextContent());
-//									if(o instanceof AggregateOffer ){
-//										e.setAggregateOffer((AggregateOffer)o);
-//									}else if(o instanceof Offer){
-//										e.setOffer((Offer)o);
-//									}
+									// Object o =offer(nl.item(i)
+									// .getAttributes().item(0)
+									// .getTextContent());
+									// if(o instanceof AggregateOffer ){
+									// e.setAggregateOffer((AggregateOffer)o);
+									// }else if(o instanceof Offer){
+									// e.setOffer((Offer)o);
+									// }
 								}
 								if (nl.item(i).getNodeName()
 										.equals("schema:image")) {
@@ -145,7 +143,6 @@ public class TestModel {
 							RDFModel.getInstance().save(e);
 							e.show();
 
-							
 						}
 
 					}
@@ -156,8 +153,35 @@ public class TestModel {
 		}
 
 	}
-	
-	public String findIdForPerformer(String id){
+
+	private Date editDate(String textContent) {
+		// TODO Auto-generated method stub
+		List<String> months = Arrays.asList("January", "February", "March",
+				"April", "May", "June", "July", "August", "September",
+				"October", "November", "December");
+		GregorianCalendar g = new GregorianCalendar();
+		StringBuffer sb = new StringBuffer(textContent);
+		String s = sb.substring(0, sb.indexOf(",") + 6);
+		String[] arr = s.split(" ");
+		ArrayList<String> pom = new ArrayList<String>();
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] != null && arr[i].length() != 0 && arr[i].length() != 1) {
+				pom.add(arr[i]);
+			}
+		}
+		for (int i = 0; i < months.size(); i++) {
+			if (pom.get(0).equals(months.get(i))) {
+				int pomy = Integer.parseInt(pom.get(2));
+				int pomi = Integer.parseInt(pom.get(1).substring(0,
+						pom.get(1).length() - 1));
+				g.set(pomy, i, pomi);
+			}
+		}
+		Date d = g.getTime();
+		return d;
+	}
+
+	public String findIdForPerformer(String id) {
 		try {
 			File rdf = new File("event.rdf");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
@@ -173,34 +197,30 @@ public class TestModel {
 					Element eElement = (Element) nNode;
 					NodeList nl = eElement.getChildNodes();
 
-
-							if (nl.item(0).getParentNode().getAttributes()
-									.item(0).getTextContent()
-									.equals(id)) {
-								for (int i = 0; i < nl.getLength(); i++) {
-									if (nl.item(i).getNodeName()
-											.equals("rdf:first")) {
-										return nl.item(i)
-												.getAttributes().item(0)
-												.getTextContent();
-									}
-									}
-
-								}
-
+					if (nl.item(0).getParentNode().getAttributes().item(0)
+							.getTextContent().equals(id)) {
+						for (int i = 0; i < nl.getLength(); i++) {
+							if (nl.item(i).getNodeName().equals("rdf:first")) {
+								return nl.item(i).getAttributes().item(0)
+										.getTextContent();
 							}
-
 						}
-					
+
+					}
+
+				}
+
+			}
+
 			return null;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return null;
 	}
-	
+
 	public Person person(String textContent) {
-		Person p=  new Person();
+		Person p = new Person();
 		try {
 			File rdf = new File("event.rdf");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
@@ -226,14 +246,12 @@ public class TestModel {
 									.equals(textContent)) {
 								p.setUri(UriGenerator.generate(p));
 								for (int i = 0; i < nl.getLength(); i++) {
-									
+
 									if (nl.item(i).getNodeName()
 											.equals("schema:name")) {
-										p.setName(nl.item(i)
-												.getAttributes().item(0)
-												.getTextContent());
+										p.setName(nl.item(i).getAttributes()
+												.item(0).getTextContent());
 									}
-									
 
 								}
 
@@ -241,7 +259,7 @@ public class TestModel {
 
 						}
 					}
-					
+
 				}
 			}
 			RDFModel.getInstance().save(p);
@@ -310,7 +328,7 @@ public class TestModel {
 
 						}
 					}
-					
+
 				}
 			}
 			RDFModel.getInstance().save(l);
@@ -343,7 +361,7 @@ public class TestModel {
 								.equals("http://schema.org/PostalAddress")) {
 							if (nl.item(0).getParentNode().getAttributes()
 									.item(0).getTextContent().equals(id)) {
-								
+
 								a = new Address();
 								a.setUri(UriGenerator.generate(a));
 								for (int i = 0; i < nl.getLength(); i++) {
@@ -376,24 +394,25 @@ public class TestModel {
 
 					}
 				}
-			}RDFModel.getInstance().save(a);
+			}
+			RDFModel.getInstance().save(a);
 			return a;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return null;
 	}
-	
-	public Object choose(String id){
-			if(offer(id)!=null){
-				return offer(id);
-			}else if(aggregateOffer(id)!=null){
-				return aggregateOffer(id);
-			}
-			return null;
+
+	public Object choose(String id) {
+		if (offer(id) != null) {
+			return offer(id);
+		} else if (aggregateOffer(id) != null) {
+			return aggregateOffer(id);
+		}
+		return null;
 	}
-	
-	public Offer offer(String id){
+
+	public Offer offer(String id) {
 		Offer o = new Offer();
 		try {
 			File rdf = new File("event.rdf");
@@ -419,8 +438,7 @@ public class TestModel {
 								for (int i = 0; i < nl.getLength(); i++) {
 									if (nl.item(i).getNodeName()
 											.equals("schema:name")) {
-										o.setName(nl.item(i)
-												.getTextContent());
+										o.setName(nl.item(i).getTextContent());
 									}
 									if (nl.item(i).getNodeName()
 											.equals("schema:url")) {
@@ -429,7 +447,6 @@ public class TestModel {
 												.getTextContent());
 										o.setUrl(url);
 									}
-									
 
 								}
 
@@ -447,8 +464,8 @@ public class TestModel {
 		}
 		return null;
 	}
-	
-	public AggregateOffer aggregateOffer(String id){
+
+	public AggregateOffer aggregateOffer(String id) {
 		AggregateOffer a = new AggregateOffer();
 		try {
 			File rdf = new File("event.rdf");
@@ -471,7 +488,7 @@ public class TestModel {
 							if (nl.item(0).getParentNode().getAttributes()
 									.item(0).getTextContent().equals(id)) {
 								a.setUri(UriGenerator.generate(a));
-//								a.setAvailability(availability)
+								// a.setAvailability(availability)
 								for (int i = 0; i < nl.getLength(); i++) {
 									if (nl.item(i).getNodeName()
 											.equals("schema:availability")) {
