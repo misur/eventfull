@@ -4,7 +4,12 @@ import thewebsemantic.Namespace;
 import thewebsemantic.RdfProperty;
 import thewebsemantic.RdfType;
 import util.Constants;
-
+/*Klasa Aggregaoffer je tipa aggregatoffer nasledjuje klasu Thing i sadrizi atribut
+ * -availability
+ * 
+ * 
+ * 
+ * */
 @Namespace(Constants.SCHEMA)
 @RdfType("AggregateOffer")
 public class AggregateOffer extends Thing {

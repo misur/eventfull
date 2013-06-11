@@ -8,6 +8,9 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
+/*
+ * Klasa Utility sadrzi encode metodu koji odredjeni sadrzaj kodira u "UTF-8" format.
+ */
 
 public class Utility {
 	

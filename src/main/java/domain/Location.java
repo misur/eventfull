@@ -8,45 +8,27 @@ import thewebsemantic.Namespace;
 import thewebsemantic.RdfProperty;
 import thewebsemantic.RdfType;
 import util.Constants;
-
+/*Klasa Location je tipa Place nasledjuje klasu Thing
+ * i ima atribute :
+ * url
+ * address
+ * map
+ * 
+ * */
 @Namespace(Constants.SCHEMA)
 @RdfType("Place")
 public class Location extends Thing {
-	@RdfProperty(Constants.SCHEMA + "name")
-	private String name;
 
 	@RdfProperty(Constants.SCHEMA + "url")
-	private URL url;
+	private String url;
 
 	@RdfProperty(Constants.SCHEMA + "address")
 	private Address address;
 
 	@RdfProperty(Constants.SCHEMA + "map")
-	private URL map;
+	private String  map;
 
-	public String getName() {
-		return name;
-	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public URL getUrl() {
-		return url;
-	}
-
-	public void setUrl(URL url) {
-		this.url = url;
-	}
-
-	public URL getMap() {
-		return map;
-	}
-
-	public void setMap(URL map) {
-		this.map = map;
-	}
 
 	public Address getAddress() {
 		return address;
@@ -58,8 +40,24 @@ public class Location extends Thing {
 
 	@Override
 	public String toString() {
-		return "Location [name=" + name + ", url=" + url + ", address="
+		return "Location [name=" + getName() + ", url=" + url + ", address="
 				+ address + ", map=" + map + "]";
+	}
+
+	public String getMap() {
+		return map;
+	}
+
+	public void setMap(String map) {
+		this.map = map;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
 	}
 
 }

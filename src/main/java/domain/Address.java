@@ -5,7 +5,13 @@ import thewebsemantic.Namespace;
 import thewebsemantic.RdfProperty;
 import thewebsemantic.RdfType;
 import util.Constants;
-
+/*Klasa Addressa je tipa postalAddressa nasledjuje klasu Thing
+ * sadrzi atribute :
+ * -streetAddress
+ * -addressLocality
+ * -addressRegion
+ * -postalCode
+ * */
 @Namespace(Constants.SCHEMA)
 @RdfType("PostalAddress")
 public class Address extends Thing{

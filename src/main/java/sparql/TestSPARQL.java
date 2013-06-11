@@ -23,7 +23,10 @@ import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
 
 public class TestSPARQL {
-	
+	/*
+	 * Klasa TestSPARQL ucitava preko metode load Model i posle izvrsava sparql upite nad modelom 
+	 * 
+	 */
 public Model loadEvent(List<String> events) throws Exception {
 		
 		Model rdfGraph = ModelFactory.createDefaultModel();
@@ -60,8 +63,8 @@ public Model loadEvent(List<String> events) throws Exception {
 		
 		TestSPARQL test = new TestSPARQL();
 		try {
-//			Model m = test.loadEvent(lists)
-//			m.write(System.out, "RDF/XML");?
+//			Model m = test.loadEvent(lists);
+//			m.write(System.out, "RDF/XML");
 //		    m.write(new FileOutputStream("event.rdf"), "RDF/XML");
 //		    m.write(new FileOutputStream("event.ttl"), "TURTLE");
 			Model m = ModelFactory.createDefaultModel();
@@ -69,14 +72,16 @@ public Model loadEvent(List<String> events) throws Exception {
 			
 			QueryService qs = new QueryService(m);
 			
-			List<String> resultList = qs.getEventNameByStreetAddress("982 Market Street");
-			for (String result : resultList) {
-				System.out.println("- " + result);
-			}
+//			List<String> resultList = qs.getEventNameByStreetAddress("982 Market Street");
+//			for (String result : resultList) {
+//				System.out.println("- " + result);
+//			}
 //			List<String> resultList = qs.getEventNameByDate();
 //			for (String result : resultList) {
 //				System.out.println("- " + result);
 //			}
+//			qs.getEventNameByDate1("2013-06-07T12:30:41.697Z");
+			qs.getEventByLocality("San Francisco");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

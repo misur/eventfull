@@ -9,18 +9,16 @@ import thewebsemantic.Namespace;
 import thewebsemantic.RdfProperty;
 import thewebsemantic.RdfType;
 import util.Constants;
-
+/* Klasa Event je tipa event nasledjuje klasu Thing i sadrzi atribute
+ * startDate
+ * location
+ * offers
+ * performer
+ * */
 @Namespace(Constants.SCHEMA)
 @RdfType("Event")
 public class Event extends Thing {
-	@RdfProperty(Constants.SCHEMA + "name")
-	private String name;
-
-	@RdfProperty(Constants.SCHEMA + "description")
-	private String description;
-
-	@RdfProperty(Constants.SCHEMA + "image")
-	private URL image;
+	
 
 	@RdfProperty(Constants.SCHEMA + "startDate")
 	private Date startDate;
@@ -37,21 +35,6 @@ public class Event extends Thing {
 	@RdfProperty(Constants.SCHEMA + "performer")
 	private Person performer;
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public URL getImage() {
-		return image;
-	}
-
-	public void setImage(URL image) {
-		this.image = image;
-	}
 
 	public Location getLocation() {
 		return location;
@@ -66,13 +49,6 @@ public class Event extends Thing {
 
 	}
 
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
 
 	public Offer getOffer() {
 		return offer;
@@ -100,8 +76,8 @@ public class Event extends Thing {
 
 	@Override
 	public String toString() {
-		return "Event [name=" + name + ", description=" + description
-				+ ", image=" + image + ", startDate=" + startDate
+		return "Event [name=" + getName() + ", description=" + getDescription()
+				+ ", image=" + getImage() + ", startDate=" + startDate
 				+ ", location=" + location + ", offer=" + offer
 				+ ", aggregateOffer=" + aggregateOffer + ", performer="
 				+ performer + "]";

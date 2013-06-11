@@ -12,7 +12,9 @@ import edu.uci.ics.crawler4j.crawler.Page;
 import edu.uci.ics.crawler4j.crawler.WebCrawler;
 import edu.uci.ics.crawler4j.parser.HtmlParseData;
 import edu.uci.ics.crawler4j.url.WebURL;
-
+/* MyCrawler klasa sadrzi atribut FILTERS koji filtrira sve url-ove
+ * takodje i podesava koje url-ove bi morao da posjeti i te url-ove cuva u fajl 
+ * takodje sadrzi i metodu edit koja filtrira sve url */
 public class MyCrawler extends WebCrawler {
 	private final static Pattern FILTERS = Pattern
 			.compile(".*(\\.(css|js|bmp|gif|jpe?g"
@@ -20,10 +22,6 @@ public class MyCrawler extends WebCrawler {
 					+ "|wav|avi|mov|mpeg|ram|m4v|pdf"
 					+ "|rm|smil|wmv|swf|wma|zip|rar|gz))$");
 
-	/**
-	 * You should implement this function to specify whether the given url
-	 * should be crawled or not (based on your crawling logic).
-	 */
 	@Override
 	public boolean shouldVisit(WebURL url) {
 		String href = url.getURL().toLowerCase();
@@ -31,14 +29,9 @@ public class MyCrawler extends WebCrawler {
 				&& href.startsWith("http://eventful.com/sanfrancisco_ca/events/categories/music");
 	}
 
-	/**
-	 * This function is called when a page is fetched and ready to be processed
-	 * by your program.
-	 */
 	@Override
 	public void visit(Page page) {
 		String url = page.getWebURL().getURL();
-//		System.out.println("URL: " + url);
 
 		if (page.getParseData() instanceof HtmlParseData) {
 			HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
@@ -46,9 +39,6 @@ public class MyCrawler extends WebCrawler {
 			String html = htmlParseData.getHtml();
 			List<WebURL> links = htmlParseData.getOutgoingUrls();
 			List<WebURL> pom = editURL(links);
-//			System.out.println("Text length: " + text.length());
-//			System.out.println("Html length: " + html.length());
-//			System.out.println("Number of outgoing links: " + links.size());
 			try {
 				BufferedWriter bf = new BufferedWriter(new  FileWriter("links.txt"));
 				for (int i = 0; i < pom.size(); i++) {
@@ -59,7 +49,6 @@ public class MyCrawler extends WebCrawler {
 				bf.close();
 				
 			} catch (Exception e) {
-				// TODO: handle exception
 			}
 			for (int i = 0; i < pom.size(); i++) {
 				System.out.println(pom.get(i).toString());

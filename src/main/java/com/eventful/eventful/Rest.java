@@ -6,7 +6,10 @@ import java.net.URL;
 
 import util.Utility;
 
-
+/*
+ * Klasa Rest sadrzi Distiller 
+ * 
+ * */
 
 public class Rest {
 	
@@ -20,8 +23,6 @@ public class Rest {
 		if ( outputFormat == null || outputFormat.equals("") )
 			outputFormat = "rdfxml";
 		
-		//building url of the following form:
-		//http://rdf.greggkellogg.net/distiller?format=rdfxml&rdfagraph=&uri=http://www.example.com/
 		StringBuilder sb = new StringBuilder();
 		sb.append(RDFDISTILLER_URL);
 		sb.append("?format=").append( outputFormat + "&" + inputFormat );
@@ -40,9 +41,7 @@ public class Rest {
 		if (format == null || (!format.equalsIgnoreCase("html") & !format.equalsIgnoreCase("xhtml") ) )
 			format = "HTML";
 		
-		//building url of the following form:
-		//http://rdf-in-html.appspot.com/translate/?uri=http://www.example.com/&parser=HTML
-		StringBuilder sb = new StringBuilder();
+				StringBuilder sb = new StringBuilder();
 		sb.append(JAVA_RDFA_EXTRACTOR_URL);
 		sb.append("?uri=").append( Utility.encode(urlString) );
 	    sb.append("&parser=").append( format.toUpperCase() );
