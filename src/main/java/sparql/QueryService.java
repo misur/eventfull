@@ -57,8 +57,9 @@ public class QueryService {
 				+ "schema:name ?name; \n"
 				+ "schema:description ?description;\n"
 				+ "schema:startDate ?startdate . \n"
-				+ "FILTER(xsd:dateTime(?startdate) = \"" + date
+				+ "FILTER(xsd:dateTime(?startdate) > \"" + date
 				+ "\"^^xsd:dateTime" + ").\n" + "}";
+		System.out.println(query);
 		com.hp.hpl.jena.query.Query q = QueryFactory.create(query);
 		QueryExecution qe = QueryExecutionFactory.create(q, rdfGraph);
 		ResultSet resultSet = qe.execSelect();
@@ -91,7 +92,7 @@ public class QueryService {
 					+ "schema:streetAddress ?streetAddress; \n"
 					+ "schema:addressRegion ?addressRegion. \n"
 					+ "}";
-		 
+		 	System.out.println(query);
 		 com.hp.hpl.jena.query.Query q = QueryFactory.create(query);
 			QueryExecution qe = QueryExecutionFactory.create(q, rdfGraph);
 			ResultSet resultSet = qe.execSelect();

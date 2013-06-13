@@ -6,68 +6,6 @@
 @prefix og:      <http://ogp.me/ns#> .
 @prefix fb:      <http://www.facebook.com/2008/fbml> .
 
-<http://eventful.com/sanfrancisco_ca/events/jason-mraz-/E0-001-054972698-9>
-      md:item ([ a       schema:webPage ;
-                  schema:breadcrumb ("""Home /
-        
-      
-        San Francisco  Events /
-      
-      Jason Mraz
-    
-""")
-                ] [ a       schema:Event ;
-                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/004/196/539-2.gif_/jason-mraz-39.gif> ;
-                  schema:location
-                          [ a       schema:Place ;
-                            schema:address
-                                    [ a       schema:PostalAddress ;
-                                      schema:addressLocality
-                                              "San Francisco" ;
-                                      schema:addressRegion
-                                              "California" ;
-                                      schema:postalCode "94111" ;
-                                      schema:streetAddress
-                                              "Pier 27 and 29"
-                                    ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
-                          ] ;
-                  schema:name """
-    
-      Jason Mraz
-
-     in San Francisco""" ;
-                  schema:offers
-                          [ a       schema:AggregateOffer ;
-                            schema:availability schema:InStock
-                          ] ;
-                  schema:offers
-                          [ a       schema:Offer ;
-                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/jason-mraz-/E0-001-054972698-9>
-                          ] ;
-                  schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/jason-mraz-/P0-001-000001223-5>
-                            ]) ;
-                  schema:startDate """
-      
-  
-      
-      
-  
-      
-    
-  
-      September 1, 2013
-      Sunday   7:00 PM
-        
-      
-    """
-                ]) ;
-      rdfa:usesVocabulary schema: .
-
 <http://eventful.com/sanfrancisco_ca/events/categories/family_fun_kids>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
@@ -98,19 +36,18 @@
                 ] []) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/conocer-stella-y-dot-stella-dot-mission-me-/E0-001-057650057-2>
+<http://eventful.com/sanfrancisco_ca/events/aloha-bay-/E0-001-057723814-0>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      ¡Conocer Stella y Dot! Stella & Dot Mission Meet-up
+      Aloha By The Bay
     
 """)
                 ] [ a       schema:Event ;
-                  schema:description " " ;
-                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/014/130/028-2.jpeg_/conocer-stella-y-dot-stella-dot-mission-meetup-28.jpeg> ;
+                  schema:description " Aloha By The Bay Raiatea Helm, Nathan Aweau and Steven Espaniola in concertProducer: Nihonmachi Street Fair, Inc.Benefit concert for the Nihonmachi Street FairTickets are $20/$40 and are available by calling 415-771-9861 or at the Aloha Warehouse at 1731 Buchanan Street in San Francisco's Japantown.- for more Information on this event call 415-771-9861 Sat~6/22/137PM" ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -119,28 +56,18 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94110" ;
                                       schema:streetAddress
-                                              "2475 Mission Street"
+                                              "3301 Lyon Street"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=2475+Mission+Street,+San+Francisco,+California,+94110,+United+States&hl=en> ;
-                            schema:name "Cafe La Taza" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/cafe-la-taza-/V0-001-007013019-0>
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
                           ] ;
                   schema:name """
     
-      ¡Conocer Stella y Dot! Stella & Dot Mission Meet-up
+      Aloha By The Bay
 
      in San Francisco""" ;
-                  schema:offers
-                          [ a       schema:AggregateOffer ;
-                            schema:availability schema:InStock
-                          ] ;
-                  schema:offers
-                          [ a       schema:Offer ;
-                            schema:name "Find Tickets eventbrite.com" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/conocer-stella-y-dot-stella-dot-mission-me-/E0-001-057597152-4>
-                          ] ;
                   schema:startDate """
       
   
@@ -150,8 +77,8 @@
       
     
   
-      June 20, 2013
-      Thursday   9:30 AM - 10:15 AM
+      June 22, 2013
+       
         
       
     """
@@ -211,6 +138,65 @@
                 ] []) ;
       rdfa:usesVocabulary schema: .
 
+<http://eventful.com/sanfrancisco_ca/events/themechanicsofmagic7gamedesigninsights-chri-/E0-001-058238781-1>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      \"The Mechanics of Magic: 7 Game Design Insights\" by Christina Wodtke
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:description " " ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/014/192/016-5.jpeg_/themechanicsofmagic7gamedesigninsights-christina-w-16.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:streetAddress
+                                              "383 Rhode Island Street, 3rd Floor"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=383+Rhode+Island+Street,+3rd+Floor,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Change.org" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/changeorg-/V0-001-006136791-4>
+                          ] ;
+                  schema:name """
+    
+      \"The Mechanics of Magic: 7 Game Design Insights\" by Christina Wodtke
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets eventbrite.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/themechanicsofmagic7gamedesigninsights-chri-/E0-001-058238781-1>
+                          ] ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      July 9, 2013
+      Tuesday   7:00 PM -  8:30 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
 <http://eventful.com/sanfrancisco_ca/events/categories/music_rock>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
@@ -230,18 +216,18 @@
                 ] []) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/cheech-chong-special-guest-war-/E0-001-057384958-6>
+<http://eventful.com/sanfrancisco_ca/events/father-john-misty-/E0-001-054214050-6>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Cheech & Chong With Special Guest War
+      Father John Misty
     
 """)
                 ] [ a       schema:Event ;
-                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/003/650/291-3.jpeg_/cheech-and-chong-91.jpeg> ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/013/576/144-6.jpeg_/father-john-misty-44.jpeg> ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -250,30 +236,89 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
+                                      schema:postalCode "94115" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "1805 Geary Blvd"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=1805+Geary+Blvd,+San+Francisco,+California,+94115,+United+States&hl=en> ;
+                            schema:name "The Fillmore" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/the-fillmore-/V0-001-000716689-0>
                           ] ;
                   schema:name """
     
-      Cheech & Chong With Special Guest War
+      Father John Misty
 
      in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets Ticketmaster" , "Find Tickets stubhub.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/father-john-misty-/E0-001-054214050-6>
+                          ] ;
                   schema:offers
                           [ a       schema:AggregateOffer ;
                             schema:availability schema:InStock
                           ] ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 21, 2013
+      Friday   9:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/dandy-warhols-/E0-001-055538621-4>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      The Dandy Warhols
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:image <http://s2.evcdn.com/images/edpborder500/I0-001/000/289/649-1.jpg_/the-dandy-warhols-49.jpg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:postalCode "94115" ;
+                                      schema:streetAddress
+                                              "1805 Geary Blvd"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=1805+Geary+Blvd,+San+Francisco,+California,+94115,+United+States&hl=en> ;
+                            schema:name "The Fillmore" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/the-fillmore-/V0-001-000716689-0>
+                          ] ;
+                  schema:name """
+    
+      The Dandy Warhols
+
+     in San Francisco""" ;
                   schema:offers
                           [ a       schema:Offer ;
-                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/cheech-chong-special-guest-war-/E0-001-057384958-6>
+                            schema:name "Find Tickets Ticketmaster" , "Find Tickets stubhub.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/dandy-warhols-/E0-001-055538621-4>
+                          ] ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
                           ] ;
                   schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/cheech-and-chong-/P0-001-000184223-5>
+                              schema:name <http://eventful.com/performers/the-dandy-warhols-/P0-001-000020898-4>
                             ]) ;
                   schema:startDate """
       
@@ -284,8 +329,8 @@
       
     
   
-      August 10, 2013
-      Saturday   7:30 PM
+      June 15, 2013
+      Saturday   9:00 PM
         
       
     """
@@ -311,65 +356,6 @@
                 ] []) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/best-tchaikovsky-san-francisco-symphony-/E0-001-057384953-1>
-      md:item ([ a       schema:webPage ;
-                  schema:breadcrumb ("""Home /
-        
-      
-        San Francisco  Events /
-      
-      Best Of Tchaikovsky With The San Francisco Symphony
-    
-""")
-                ] [ a       schema:Event ;
-                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/014/018/172-3.jpeg_/best-tchaikovsky-san-francisco-symphony-72.jpeg> ;
-                  schema:location
-                          [ a       schema:Place ;
-                            schema:address
-                                    [ a       schema:PostalAddress ;
-                                      schema:addressLocality
-                                              "San Francisco" ;
-                                      schema:addressRegion
-                                              "California" ;
-                                      schema:postalCode "94111" ;
-                                      schema:streetAddress
-                                              "Pier 27 and 29"
-                                    ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
-                          ] ;
-                  schema:name """
-    
-      Best Of Tchaikovsky With The San Francisco Symphony
-
-     in San Francisco""" ;
-                  schema:offers
-                          [ a       schema:AggregateOffer ;
-                            schema:availability schema:InStock
-                          ] ;
-                  schema:offers
-                          [ a       schema:Offer ;
-                            schema:name "Find Tickets gigaticket.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/best-tchaikovsky-san-francisco-symphony-/E0-001-057384953-1>
-                          ] ;
-                  schema:startDate """
-      
-  
-      
-      
-  
-      
-    
-  
-      July 20, 2013
-      Saturday   7:00 PM
-        
-      
-    """
-                ]) ;
-      rdfa:usesVocabulary schema: .
-
 <http://eventful.com/sanfrancisco_ca/events/categories/music_rb>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
@@ -389,19 +375,18 @@
                 ] []) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/weezer-/E0-001-056159036-8>
+<http://eventful.com/sanfrancisco_ca/events/tracy-morgan-/E0-001-054691728-9>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Weezer
+      Tracy Morgan
     
 """)
                 ] [ a       schema:Event ;
-                  schema:description " " ;
-                  schema:image <http://s3.evcdn.com/images/edpborder500/I0-001/004/190/782-0.jpeg_/weezer-82.jpeg> ;
+                  schema:image <http://s2.evcdn.com/images/edpborder500/I0-001/002/117/845-7.jpeg_/tracy-morgan-45.jpeg> ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -410,30 +395,25 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "3301 Lyon Street"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
                           ] ;
                   schema:name """
     
-      Weezer
+      Tracy Morgan
 
      in San Francisco""" ;
                   schema:offers
                           [ a       schema:Offer ;
                             schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/weezer-/E0-001-056159036-8>
-                          ] ;
-                  schema:offers
-                          [ a       schema:AggregateOffer ;
-                            schema:availability schema:InStock
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/tracy-morgan-/E0-001-054691728-9>
                           ] ;
                   schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/weezer-/P0-001-000001995-5>
+                              schema:name <http://eventful.com/performers/tracy-morgan-/P0-001-000157035-6>
                             ]) ;
                   schema:startDate """
       
@@ -444,8 +424,56 @@
       
     
   
-      July 25, 2013
-      Thursday   7:00 PM
+      June 16, 2013
+      Sunday   8:00 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/star-dance-studio-presents-journey-stars-/E0-001-057067022-2>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Star Dance Studio presents Journey To The Stars
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:streetAddress
+                                              "3301 Lyon Street"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
+                          ] ;
+                  schema:name """
+    
+      Star Dance Studio presents Journey To The Stars
+
+     in San Francisco""" ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 14, 2013
+      Friday   7:00 PM
         
       
     """
@@ -467,19 +495,18 @@
                 ] []) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/counting-crows-wallflowers-/E0-001-056918667-5>
+<http://eventful.com/sanfrancisco_ca/events/jounrney-stars-/E0-001-057723809-8>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Counting Crows with The Wallflowers
+      Jounrney to the Stars
     
 """)
                 ] [ a       schema:Event ;
-                  schema:description " " ;
-                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/000/182/488-6.jpg_/counting-crows-88.jpg> ;
+                  schema:description " Jounrney to the StarsProducer: Star Dance StudioTickets are $22/$27/$32 and are available at City Box Office, located at 180 Redwood Street, Suite 100 or online at www.cityboxoffice.com or by calling 415-392-4400.- for more Information on this event call 415-392-4400 Thu~6/13/13 Fri~6/14/13 Sat~6/15/13Set-up/Reh. 7PM 7PM" ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -488,33 +515,18 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "3301 Lyon Street"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
                           ] ;
                   schema:name """
     
-      Counting Crows with The Wallflowers
+      Jounrney to the Stars
 
      in San Francisco""" ;
-                  schema:offers
-                          [ a       schema:AggregateOffer ;
-                            schema:availability schema:InStock
-                          ] ;
-                  schema:offers
-                          [ a       schema:Offer ;
-                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/counting-crows-wallflowers-/E0-001-056918667-5>
-                          ] ;
-                  schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/counting-crows-/P0-001-000001856-7>
-                            ] [ a       schema:People ;
-                              schema:name <http://eventful.com/performers/the-wallflowers-/P0-001-000092365-8>
-                            ]) ;
                   schema:startDate """
       
   
@@ -524,26 +536,27 @@
       
     
   
-      July 18, 2013
-      Thursday   7:00 PM
+      June 13, 2013
+       
         
       
     """
                 ]) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/sting-back-bass-/E0-001-054672705-7>
+<http://eventful.com/sanfrancisco_ca/events/rodrigo-y-gabriela-/E0-001-056159068-7>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      STING: BACK TO BASS
+      Rodrigo y Gabriela
     
 """)
                 ] [ a       schema:Event ;
-                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/000/200/223-2.jpg_/sting-23.jpg> ;
+                  schema:description " " ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/001/034/368-4.jpeg_/rodrigo-y-gabriela-68.jpeg> ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -552,30 +565,30 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
+                                      schema:postalCode "94108" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "1111 California St"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=1111+California+St,+San+Francisco,+California,+94108,+United+States&hl=en> ;
+                            schema:name "Masonic Auditorium" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/masonic-auditorium-/V0-001-000231908-0>
                           ] ;
                   schema:name """
     
-      STING: BACK TO BASS
+      Rodrigo y Gabriela
 
      in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/rodrigo-y-gabriela-/E0-001-056159068-7>
+                          ] ;
                   schema:offers
                           [ a       schema:AggregateOffer ;
                             schema:availability schema:InStock
                           ] ;
-                  schema:offers
-                          [ a       schema:Offer ;
-                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/sting-back-bass-/E0-001-054672705-7>
-                          ] ;
                   schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/sting-/P0-001-000010040-6>
+                              schema:name <http://eventful.com/performers/rodrigo-y-gabriela-/P0-001-000007724-1>
                             ]) ;
                   schema:startDate """
       
@@ -586,8 +599,77 @@
       
     
   
-      June 2, 2013
-      Sunday   8:00 PM
+      July 9, 2013
+      Tuesday   7:30 PM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/academy-art-university-annual-spring-show-o-/E0-001-057366506-3>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Academy of Art University Annual Spring Show Open House
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:description """You're Invited to Our Annual Spring Show Open House!
+For Prospective Students and Family
+Explore a showcase of award-winning student work in 21 areas of art and design. 
+WHEN: 
+Saturday, June 1, 2013
+9AM-5PM (Ongoing)
+WHERE: 
+Palace of Fine Arts
+3601 Lyon Street
+San Francisco, CA 94123
+Courtesy Shuttles will be Available from 79 New Montgomery St. to Palace of Fine Arts from 9AM-5PM (Ongoing)
+WHAT:
+Let the Possibilities Inspire Your Imagination at this Exclusive Event:
+•	See Award-Winning Student Work from All 21 Areas of Art & Design
+•	Meet Faculty & Get Portfolio Feedback (Optional)
+•	Learn About Housing, Campus Life, Transferring and More
+•	Attend Financial Aid Workshops and Meet with Financial Aid Representatives
+•	Enroll in Pre-College Art Experience Programs for High School Students 
+•	Complete Your Application & Register for Classes with an Admissions Representative
+RSVP Today at www.academyart.edu/events or Call 800.544.2787. Admission is FREE!""" ;
+                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/014/093/667-3.png_/academy-art-university-annual-spring-show-open-hou-67.png> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:streetAddress
+                                              "3301 Lyon Street"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
+                          ] ;
+                  schema:name """
+    
+      Academy of Art University Annual Spring Show Open House
+
+     in San Francisco""" ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 1, 2014
+      Sunday   9:00 AM -  5:00 PM
         
       
     """
@@ -628,13 +710,13 @@
 
      in San Francisco""" ;
                   schema:offers
-                          [ a       schema:AggregateOffer ;
-                            schema:availability schema:InStock
-                          ] ;
-                  schema:offers
                           [ a       schema:Offer ;
                             schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
                             schema:url <http://eventful.com/sanfrancisco_ca/events/steve-miller-band-/E0-001-055523241-8>
+                          ] ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
                           ] ;
                   schema:performer ([ a       schema:People ;
                               schema:name <http://eventful.com/performers/steve-miller-band-/P0-001-000042797-8>
@@ -658,18 +740,18 @@
                 ]) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/jason-bonham-official-/E0-001-055799141-8>
+<http://eventful.com/sanfrancisco_ca/events/mike-coykendall-official-denim-wedding-/E0-001-057413050-0>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Jason Bonham - Official
+      Mike Coykendall (Official) - Denim Wedding
     
 """)
                 ] [ a       schema:Event ;
-                  schema:image <http://s2.evcdn.com/images/edpborder500/I0-001/003/654/761-5.png_/jason-bonham-61.png> ;
+                  schema:description " " ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -678,26 +760,19 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
+                                      schema:postalCode "94110" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "3225 22nd St"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=3225+22nd+St,+San+Francisco,+California,+94110,+United+States&hl=en> ;
+                            schema:name "Make-Out Room" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/makeout-room-/V0-001-000165866-3>
                           ] ;
                   schema:name """
     
-      Jason Bonham - Official
+      Mike Coykendall (Official) - Denim Wedding
 
      in San Francisco""" ;
-                  schema:offers
-                          [ a       schema:AggregateOffer ;
-                            schema:availability schema:InStock
-                          ] ;
-                  schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/jason-bonham-/P0-001-000240308-8>
-                            ]) ;
                   schema:startDate """
       
   
@@ -707,26 +782,26 @@
       
     
   
-      August 28, 2013
-      Wednesday   7:31 PM
+      September 15, 2013
+      Sunday   8:00 PM
         
       
     """
                 ]) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/americanarama-festival-music-featuring-bob-/E0-001-056813862-6>
+<http://eventful.com/sanfrancisco_ca/events/russell-brand-/E0-001-058225072-0>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Americanarama - Festival of Music featuring Bob Dylan and His Band with Wilco, My Morning Jacket and Richard Thompson
+      Russell Brand
     
 """)
                 ] [ a       schema:Event ;
-                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/004/119/999-9.jpeg_/bob-dylan-99.jpeg> ;
+                  schema:image <http://s2.evcdn.com/images/edpborder500/I0-001/000/632/985-4.jpeg_/russell-brand-85.jpeg> ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -735,32 +810,29 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "3301 Lyon Street"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
                           ] ;
                   schema:name """
     
-      Americanarama - Festival of Music featuring Bob Dylan and His Band with Wilco, My Morning Jacket and Richard Thompson
+      Russell Brand
 
      in San Francisco""" ;
                   schema:offers
                           [ a       schema:Offer ;
                             schema:name "Find Tickets stubhub.com" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/americanarama-festival-music-featuring-bob-/E0-001-056813862-6>
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/russell-brand-/E0-001-058225072-0>
+                          ] ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
                           ] ;
                   schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/bob-dylan-/P0-001-000008723-9>
-                            ] [ a       schema:People ;
-                              schema:name <http://eventful.com/performers/my-morning-jacket-/P0-001-000045600-4>
-                            ] [ a       schema:People ;
-                              schema:name <http://eventful.com/performers/wilco-/P0-001-000000146-0>
-                            ] [ a       schema:People ;
-                              schema:name <http://eventful.com/performers/richard-thompson-/P0-001-000009283-3>
+                              schema:name <http://eventful.com/performers/russell-brand-/P0-001-000063361-2>
                             ]) ;
                   schema:startDate """
       
@@ -771,26 +843,27 @@
       
     
   
-      July 11, 2013
-      Thursday   7:00 PM
+      August 29, 2013
+      Thursday   8:00 PM
         
       
     """
                 ]) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/sammy-hagar-four-decades-rock-/E0-001-057169515-8>
+<http://eventful.com/sanfrancisco_ca/events/miss-national-asia-pageant-2013-/E0-001-057665881-5>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Sammy Hagar Four Decades of Rock
+      MISS NATIONAL ASIA PAGEANT 2013
     
 """)
                 ] [ a       schema:Event ;
-                  schema:image <http://s3.evcdn.com/images/edpborder500/I0-001/004/225/654-7.jpeg_/sammy-hagar-54.jpeg> ;
+                  schema:description " " ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/014/141/436-3.gif_/miss-national-asia-pageant-2013-36.gif> ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -799,17 +872,16 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "3301 Lyon Street"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
                           ] ;
                   schema:name """
     
-      Sammy Hagar Four Decades of Rock
+      MISS NATIONAL ASIA PAGEANT 2013
 
      in San Francisco""" ;
                   schema:offers
@@ -818,12 +890,9 @@
                           ] ;
                   schema:offers
                           [ a       schema:Offer ;
-                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/sammy-hagar-four-decades-rock-/E0-001-057169515-8>
+                            schema:name "Find Tickets eventbrite.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/miss-national-asia-pageant-2013-/E0-001-057665881-5>
                           ] ;
-                  schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/sammy-hagar-/P0-001-000003221-1>
-                            ]) ;
                   schema:startDate """
       
   
@@ -833,26 +902,27 @@
       
     
   
-      September 7, 2013
-      Saturday   7:30 PM
+      July 6, 2013
+      Saturday   5:00 PM -  9:00 PM
         
       
     """
                 ]) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/steely-dan-/E0-001-056473919-9>
+<http://eventful.com/sanfrancisco_ca/events/laurie-berkner-/E0-001-056101021-5>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Steely Dan
+      Laurie Berkner
     
 """)
                 ] [ a       schema:Event ;
-                  schema:image <http://s3.evcdn.com/images/edpborder500/I0-001/004/211/994-5.jpeg_/steely-dan-94.jpeg> ;
+                  schema:description " " ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/003/375/376-5.jpeg_/laurie-berkner-76.jpeg> ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -861,30 +931,29 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "3301 Lyon Street"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
                           ] ;
                   schema:name """
     
-      Steely Dan
+      Laurie Berkner
 
      in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets Ticketmaster" , "Find Tickets stubhub.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/laurie-berkner-/E0-001-056101021-5>
+                          ] ;
                   schema:offers
                           [ a       schema:AggregateOffer ;
                             schema:availability schema:InStock
                           ] ;
-                  schema:offers
-                          [ a       schema:Offer ;
-                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/steely-dan-/E0-001-056473919-9>
-                          ] ;
                   schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/steely-dan-/P0-001-000001164-3>
+                              schema:name <http://eventful.com/performers/laurie-berkner-/P0-001-000070444-2>
                             ]) ;
                   schema:startDate """
       
@@ -895,8 +964,8 @@
       
     
   
-      August 17, 2013
-      Saturday   8:00 PM
+      November 2, 2013
+      Saturday   1:00 PM
         
       
     """
@@ -920,6 +989,54 @@
     
 """)
                 ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/ana-carolina-concert-/E0-001-056597693-7>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Ana Carolina Concert
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:streetAddress
+                                              "3301 Lyon Street"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
+                          ] ;
+                  schema:name """
+    
+      Ana Carolina Concert
+
+     in San Francisco""" ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 29, 2013
+      Saturday   8:00 PM
+        
+      
+    """
+                ]) ;
       rdfa:usesVocabulary schema: .
 
 <http://eventful.com/sanfrancisco_ca/events/they-might-giants-/E0-001-053849432-1>
@@ -990,7 +1107,66 @@
               "294833066685"@en ;
       xhv:alternate <http://eventful.com/atom/sanfrancisco/events> , <http://eventful.com/ical/sanfrancisco/events> ;
       xhv:icon <http://eventful.com/favicon.ico> ;
-      xhv:stylesheet <http://s1.evcdn.com/manifest/72cf5e045468331b8e33d86db59781fb.css> .
+      xhv:stylesheet <http://s1.evcdn.com/manifest/9151d05f4be57d2f6e2558f064f30fe8.css> .
+
+<http://eventful.com/sanfrancisco_ca/events/estonian-culture-festival-/E0-001-057746902-3>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Estonian Culture Festival
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:description " " ;
+                  schema:image <http://s3.evcdn.com/images/edpborder500/I0-001/014/150/166-9.jpeg_/estonian-culture-festival-66.jpeg> ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:streetAddress
+                                              "3301 Lyon Street"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
+                          ] ;
+                  schema:name """
+    
+      Estonian Culture Festival
+
+     in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:AggregateOffer ;
+                            schema:availability schema:InStock
+                          ] ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets eventbrite.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/estonian-culture-festival-/E0-001-057746902-3>
+                          ] ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 28, 2013 - June 30, 2013
+      Friday   5:00 PM - Sunday 12:00 AM
+        
+      
+    """
+                ]) ;
+      rdfa:usesVocabulary schema: .
 
 <http://eventful.com/sanfrancisco_ca/events/categories/music_electronic>
       md:item ([ a       schema:webPage ;
@@ -1045,70 +1221,25 @@
                 ] []) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/free-story-time-/E0-001-056519753-0>
+<http://eventful.com/sanfrancisco_ca/events/paula-poundstone-4th-annual-ha-ha-ho-ho-ho-/E0-001-056380408-9>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Free Story Time
+      Paula Poundstone - 4th Annual Ha Ha Ho Ho Holiday Comedy Show!
     
 """)
                 ] [ a       schema:Event ;
-                  schema:description " Free story, song and dance time!  " ;
-                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/013/954/480-1.jpeg_/free-story-time-80.jpeg> ;
-                  schema:location
-                          [ a       schema:Place ;
-                            schema:address
-                                    [ a       schema:PostalAddress ;
-                                      schema:addressLocality
-                                              "San Francisco" ;
-                                      schema:addressRegion
-                                              "California"
-                                    ] ;
-                            schema:maps <http://maps.google.com/maps?q=San+Francisco,+California,+United+States&hl=en> ;
-                            schema:name "Rare Device boutique and art gallery" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/rare-device-boutique-and-art-gallery-/V0-001-006922264-4>
-                          ] ;
-                  schema:name """
-    
-      Free Story Time
-
-     in San Francisco""" ;
-                  schema:offers
-                          [ a       schema:AggregateOffer ;
-                            schema:availability schema:InStock
-                          ] ;
-                  schema:startDate """
-      
-  
-      
-      
-  
-      
-    
-  
-      June 7, 2013
-      Friday  11:00 AM
-        
-      
-    """
-                ]) ;
-      rdfa:usesVocabulary schema: .
-
-<http://eventful.com/sanfrancisco_ca/events/imagine-dragons-/E0-001-054787709-4>
-      md:item ([ a       schema:webPage ;
-                  schema:breadcrumb ("""Home /
-        
-      
-        San Francisco  Events /
-      
-      Imagine Dragons
-    
-""")
-                ] [ a       schema:Event ;
-                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/008/085/511-9.jpeg_/imagine-dragons-11.jpeg> ;
+                  schema:description """*** Tickets On Sale 4/19***
+Fri, December 20, 2013 8:00 PM (Doors open at: 7:00 PM)
+Paula Poundstone- 4th Annual Ha Ha Ho Ho Holiday Comedy Show!
+Palace of Fine Arts Theatre 3301 Lyon Street, San Francisco, CA 94123 (415-567-6642 )
+All Ages. $35.00 Advance. $40.00 Day Of Show. Tickets available from TicketMaster
+Presale Password: PICKLES
+Ticket prices range from $35.00 in advance. All tickets $5.00 higher day of show!""" ;
+                  schema:image <http://s3.evcdn.com/images/edpborder500/I0-001/000/371/238-1.jpg_/paula-poundstone-38.jpg> ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -1117,30 +1248,29 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "3301 Lyon Street"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
                           ] ;
                   schema:name """
     
-      Imagine Dragons
+      Paula Poundstone - 4th Annual Ha Ha Ho Ho Holiday Comedy Show!
 
      in San Francisco""" ;
                   schema:offers
                           [ a       schema:Offer ;
-                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/imagine-dragons-/E0-001-054787709-4>
+                            schema:name "Find Tickets Ticketmaster" , "Find Tickets stubhub.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/paula-poundstone-4th-annual-ha-ha-ho-ho-ho-/E0-001-056380408-9>
                           ] ;
                   schema:offers
                           [ a       schema:AggregateOffer ;
                             schema:availability schema:InStock
                           ] ;
                   schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/imagine-dragons-/P0-001-000253168-2>
+                              schema:name <http://eventful.com/performers/paula-poundstone-/P0-001-000035700-4>
                             ]) ;
                   schema:startDate """
       
@@ -1151,26 +1281,27 @@
       
     
   
-      May 31, 2013
-      Friday   7:30 PM
+      December 20, 2013
+      Friday   8:00 PM
         
       
     """
                 ]) ;
       rdfa:usesVocabulary schema: .
 
-<http://eventful.com/sanfrancisco_ca/events/fall-out-boy-/E0-001-055569992-3>
+<http://eventful.com/sanfrancisco_ca/events/san-francisco-kristina-orbakait%C4%97-2013-/E0-001-058055201-3>
       md:item ([ a       schema:webPage ;
                   schema:breadcrumb ("""Home /
         
       
         San Francisco  Events /
       
-      Fall Out Boy
+      San Francisco – Kristina Orbakaitė 2013
     
 """)
                 ] [ a       schema:Event ;
-                  schema:image <http://s4.evcdn.com/images/edpborder500/I0-001/000/194/783-1.jpg_/fall-out-boy-83.jpg> ;
+                  schema:description " " ;
+                  schema:image <http://s1.evcdn.com/images/edpborder500/I0-001/014/202/732-2.jpeg_/san-francisco-kristina-orbakait%C4%97-2013-32.jpeg> ;
                   schema:location
                           [ a       schema:Place ;
                             schema:address
@@ -1179,33 +1310,27 @@
                                               "San Francisco" ;
                                       schema:addressRegion
                                               "California" ;
-                                      schema:postalCode "94111" ;
                                       schema:streetAddress
-                                              "Pier 27 and 29"
+                                              "3301 Lyon Street"
                                     ] ;
-                            schema:maps <http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&hl=en> ;
-                            schema:name "America's Cup Pavilion" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7>
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
                           ] ;
                   schema:name """
     
-      Fall Out Boy
+      San Francisco – Kristina Orbakaitė 2013
 
      in San Francisco""" ;
+                  schema:offers
+                          [ a       schema:Offer ;
+                            schema:name "Find Tickets eventbrite.com" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/events/san-francisco-kristina-orbakait%C4%97-2013-/E0-001-058055201-3>
+                          ] ;
                   schema:offers
                           [ a       schema:AggregateOffer ;
                             schema:availability schema:InStock
                           ] ;
-                  schema:offers
-                          [ a       schema:Offer ;
-                            schema:name "Find Tickets vividseats.com" , "Find Tickets Ticketmaster" ;
-                            schema:url <http://eventful.com/sanfrancisco_ca/events/fall-out-boy-/E0-001-055569992-3>
-                          ] ;
-                  schema:performer ([ a       schema:People ;
-                              schema:name <http://eventful.com/performers/fall-out-boy-/P0-001-000000926-8>
-                            ] [ a       schema:People ;
-                              schema:name <http://eventful.com/performers/panic-at-the-disco-/P0-001-000031767-1>
-                            ]) ;
                   schema:startDate """
       
   
@@ -1215,8 +1340,8 @@
       
     
   
-      September 21, 2013
-      Saturday   7:00 PM
+      November 3, 2013
+      Sunday   7:00 PM - 10:00 PM
         
       
     """
@@ -1236,6 +1361,55 @@
     
 """)
                 ] []) ;
+      rdfa:usesVocabulary schema: .
+
+<http://eventful.com/sanfrancisco_ca/events/ana-carolina-usa-tour-/E0-001-057723816-8>
+      md:item ([ a       schema:webPage ;
+                  schema:breadcrumb ("""Home /
+        
+      
+        San Francisco  Events /
+      
+      Ana Carolina USA Tour
+    
+""")
+                ] [ a       schema:Event ;
+                  schema:description " Ana Carolina USA TourProducer: Mont Hara, LLCTickets are $65/$75/$85 and are available at City Box Office, 180 Redwood Street, Suite 100; online at www.cityboxoffice.com or by calling 415-392-4400.- for more Information on this event call 415-392-400 Sat~6/29/138PM" ;
+                  schema:location
+                          [ a       schema:Place ;
+                            schema:address
+                                    [ a       schema:PostalAddress ;
+                                      schema:addressLocality
+                                              "San Francisco" ;
+                                      schema:addressRegion
+                                              "California" ;
+                                      schema:streetAddress
+                                              "3301 Lyon Street"
+                                    ] ;
+                            schema:maps <http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&hl=en> ;
+                            schema:name "Palace of Fine Arts" ;
+                            schema:url <http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8>
+                          ] ;
+                  schema:name """
+    
+      Ana Carolina USA Tour
+
+     in San Francisco""" ;
+                  schema:startDate """
+      
+  
+      
+      
+  
+      
+    
+  
+      June 29, 2013
+       
+        
+      
+    """
+                ]) ;
       rdfa:usesVocabulary schema: .
 
 <http://eventful.com/sanfrancisco_ca/events/categories/music_alternative>

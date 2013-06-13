@@ -26,18 +26,18 @@ public class MyCrawler extends WebCrawler {
 	public boolean shouldVisit(WebURL url) {
 		String href = url.getURL().toLowerCase();
 		return FILTERS.matcher(href).matches()
-				&& href.startsWith("http://eventful.com/sanfrancisco_ca/events/categories/music");
+				&& href.startsWith("http://eventful.com/sanfrancisco_ca/events");
 	}
 
 	@Override
 	public void visit(Page page) {
 		String url = page.getWebURL().getURL();
-
 		if (page.getParseData() instanceof HtmlParseData) {
 			HtmlParseData htmlParseData = (HtmlParseData) page.getParseData();
 			String text = htmlParseData.getText();
 			String html = htmlParseData.getHtml();
 			List<WebURL> links = htmlParseData.getOutgoingUrls();
+//			List<WebURL> pom =new  ArrayList<WebURL>(links);
 			List<WebURL> pom = editURL(links);
 			try {
 				BufferedWriter bf = new BufferedWriter(new  FileWriter("links.txt"));
@@ -51,12 +51,14 @@ public class MyCrawler extends WebCrawler {
 			} catch (Exception e) {
 			}
 			for (int i = 0; i < pom.size(); i++) {
-				System.out.println(pom.get(i).toString());
+				System.out.println(i+" - "+pom.get(i).toString());
 			}
 		}
+		
 	}
-	
-	public List<WebURL> editURL(List<WebURL> list){
+
+	private List<WebURL> editURL(List<WebURL> list) {
+		// TODO Auto-generated method stub
 		List<WebURL> pom = new ArrayList<WebURL>();
 		for (int i = 0; i < list.size(); i++) {
 			if(list.get(i).toString().startsWith("http://eventful.com/sanfrancisco_ca/events")){
@@ -66,4 +68,6 @@ public class MyCrawler extends WebCrawler {
 		}
 		return pom;
 	}
+	
+
 }

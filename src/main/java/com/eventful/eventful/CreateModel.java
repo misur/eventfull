@@ -60,18 +60,10 @@ import domain.Person;
  * */
 public class CreateModel {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		File rdf = new File("event.rdf");
-		CreateModel m = new CreateModel();
-		m.events(rdf);
-
-		 RDFModel.getInstance().saveAsFile("myRDF.rdf","RDF/XML");
-
-	}
 
 	public void events(File rdf) {
 
+		 
 		try {
 
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
@@ -79,10 +71,7 @@ public class CreateModel {
 			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 			Document doc = dBuilder.parse(rdf);
 			doc.getDocumentElement().normalize();
-			System.out.println("Root element :"
-					+ doc.getDocumentElement().getNodeName());
 			NodeList nList = doc.getElementsByTagName("rdf:Description");
-			System.out.println("----------------------------");
 			for (int temp = 0; temp < nList.getLength(); temp++) {
 				Node nNode = nList.item(temp);
 
@@ -150,8 +139,8 @@ public class CreateModel {
 							}
 
 							RDFModel.getInstance().save(e);
-							e.show();
-
+//							e.show();
+							RDFModel.getInstance().saveAsFile("myRDF.rdf","RDF/XML");
 						}
 
 					}

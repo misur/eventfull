@@ -3,510 +3,591 @@
     xmlns:owl="http://www.w3.org/2002/07/owl#"
     xmlns:j.0="http://thewebsemantic.com/"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:j.1="http://com.hp.hpl.jena.rdf.model.impl/"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
     xmlns:schema="http://schema.org/"
-    xmlns:j.1="http://java.net/"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" > 
-  <rdf:Description rdf:about="http://eventful.com/Location/9ed4af9a-80a7-4949-a454-6df47a112fd5">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cafe La Taza</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/c8b13e41-9e75-492a-a525-fc50c64e1a33"/>
-    <schema:url rdf:resource="http://java.net/URL/-554001603"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=2475+Mission+Street,+San+Francisco,+California,+94110,+United+States&amp;hl=en</schema:map>
+  <rdf:Description rdf:about="http://eventful.com/Location/9599eb05-e217-4b21-935e-ba9c073f6ab1">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/ed9105a7-2fd3-4c71-84ed-0d34abc59c14"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
     <rdf:type rdf:resource="http://schema.org/Place"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/31190e79-2e0e-4a83-9c5b-0aff453b75f8">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/bd90ce7f-576e-4dfc-a903-ed52b46a17a3"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
+  <rdf:Description rdf:about="http://eventful.com/Location/fda056a1-2b59-48d1-b684-352ad3af1a55">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/f64aea55-95c2-4916-90c9-a9f3afdce845"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
     <rdf:type rdf:resource="http://schema.org/Place"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://java.net/URL/892018122">
-    <rdf:type rdf:resource="http://java.net/URL"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/c74ea4db-8d42-4a71-92eb-010cefc54eb0">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s4.evcdn.com/images/edpborder500/I0-001/000/194/783-1.jpg_/fall-out-boy-83.jpg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Fall Out Boy
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/71871901-64c1-4d46-bd0a-2d2d632d4f55"/>
-    <schema:location rdf:resource="http://eventful.com/Location/e586c1f3-f746-468a-be01-cb6d3be7eafe"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-21T11:57:31.798Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/7a5e6dd2-fe6d-4107-90e8-48f78df9f1f8">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/steely-dan-/P0-001-000001164-3</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/fc6954b7-ae2e-4d2e-99d9-be46024b593c">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s4.evcdn.com/images/edpborder500/I0-001/004/196/539-2.gif_/jason-mraz-39.gif</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Jason Mraz
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/eea482d9-8598-457b-9823-41e4f23d3629"/>
-    <schema:location rdf:resource="http://eventful.com/Location/1516ef79-deae-454d-8caa-d3c9dad62f05"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-01T11:57:31.73Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/a464a7ba-c7f5-43dd-985b-6694d4e7d336">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/013/954/480-1.jpeg_/free-story-time-80.jpeg</schema:image>
-    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Free story, song and dance time!  </schema:description>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Free Story Time
-
-     in San Francisco</schema:name>
-    <schema:location rdf:resource="http://eventful.com/Location/d7680011-a702-4dfc-8259-87e196e257a7"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-07T11:57:31.746Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/723e0dd5-994f-42a2-b387-b6e73208761c">
+  <rdf:Description rdf:about="http://eventful.com/Address/67f81975-5fa3-4082-8d13-ea081229757a">
     <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
     <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
     <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/e798955d-0680-426b-8514-a977670f1c03">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/19339eed-7655-4971-9ba2-8fa0b47dc2fa"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/a2d9321a-dc9e-42ef-ad80-7aa6ac90f56f">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/0e9101c3-df18-47a3-93a2-4784e7fbe1fd"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/bd90ce7f-576e-4dfc-a903-ed52b46a17a3">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/7533065e-88d8-44a4-8ce5-15ef5b7097ed">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/94a716df-4f0d-4b56-aa1f-6816bf4bd49a">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/6e9e3729-b6ba-48fd-88be-366994e62073">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/d5a0d6c6-684a-4c54-8d18-85ee6fdc5369"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/860cd14a-3a97-4bf6-96e1-7ad8e6cac078">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/357fe9ac-d382-4704-b87a-76840028acdb">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/weezer-/P0-001-000001995-5</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/d91b8841-4fd0-494c-81bb-f2b5c3384b70">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s3.evcdn.com/images/edpborder500/I0-001/004/211/994-5.jpeg_/steely-dan-94.jpeg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Steely Dan
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/7a5e6dd2-fe6d-4107-90e8-48f78df9f1f8"/>
-    <schema:location rdf:resource="http://eventful.com/Location/6e9e3729-b6ba-48fd-88be-366994e62073"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-17T11:57:31.76Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://java.net/URL/1894731649">
-    <rdf:type rdf:resource="http://java.net/URL"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/944125d3-b47a-4263-b213-8a9b9a69054e">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/bob-dylan-/P0-001-000008723-9</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/6f724484-8f72-4952-8955-0da4d1ced72c">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/cheech-and-chong-/P0-001-000184223-5</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/e736788e-04d5-44b6-a2b8-b1b2ef25ba73">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s4.evcdn.com/images/edpborder500/I0-001/008/085/511-9.jpeg_/imagine-dragons-11.jpeg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Imagine Dragons
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/50ad960d-92e8-4ea8-a596-e7aad0391be1"/>
-    <schema:location rdf:resource="http://eventful.com/Location/a2d9321a-dc9e-42ef-ad80-7aa6ac90f56f"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-31T11:57:31.85Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/eea482d9-8598-457b-9823-41e4f23d3629">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/jason-mraz-/P0-001-000001223-5</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/19339eed-7655-4971-9ba2-8fa0b47dc2fa">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/8dee4910-611f-4668-9fe9-b5964a530918">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/014/018/172-3.jpeg_/best-tchaikovsky-san-francisco-symphony-72.jpeg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Best Of Tchaikovsky With The San Francisco Symphony
-
-     in San Francisco</schema:name>
-    <schema:location rdf:resource="http://eventful.com/Location/e5de2ccb-268e-498c-9edb-1bce4e33f885"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-20T11:57:31.865Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/e586c1f3-f746-468a-be01-cb6d3be7eafe">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/b2d9dd2d-fede-4f6d-bddc-94a06409fc36"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/e5de2ccb-268e-498c-9edb-1bce4e33f885">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/7533065e-88d8-44a4-8ce5-15ef5b7097ed"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/cf66be73-3385-4679-9424-93851abb8c26">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/counting-crows-/P0-001-000001856-7</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/006d9834-ca78-4508-ada7-d8e2c10a79f7">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/860cd14a-3a97-4bf6-96e1-7ad8e6cac078"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://schema.org/Person">
-    <j.0:javaclass>domain.Person</j.0:javaclass>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/50ad960d-92e8-4ea8-a596-e7aad0391be1">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/imagine-dragons-/P0-001-000253168-2</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/a91fdb9b-2612-47a7-956f-9293049415c6">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/99d49c93-e359-4dde-a9a7-b66ce6beec6b"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/4b363200-4477-4ec2-8104-720b164bb673">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/004/182/636-7.jpeg_/they-might-be-giants-36.jpeg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      They Might Be Giants
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/41ec14b6-0bfa-478d-8916-dec4eac48567"/>
-    <schema:location rdf:resource="http://eventful.com/Location/c00c1536-9637-4d25-880b-3de1b44ffe1f"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-14T11:57:31.818Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/1516ef79-deae-454d-8caa-d3c9dad62f05">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/9d313a79-fe11-45c0-acf7-92a1ddf2fc95"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/35be42a8-1e08-4b66-a252-8079b78f33ab">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/jason-bonham-/P0-001-000240308-8</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://java.net/URL/1710047230">
-    <rdf:type rdf:resource="http://java.net/URL"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/d7680011-a702-4dfc-8259-87e196e257a7">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rare Device boutique and art gallery</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/723e0dd5-994f-42a2-b387-b6e73208761c"/>
-    <schema:url rdf:resource="http://java.net/URL/892018122"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=San+Francisco,+California,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/1b9fa298-b7f2-406b-ba00-5a4a34d093fb">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/sting-/P0-001-000010040-6</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/44c1330f-f52c-4418-af4c-3752a480607c">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s2.evcdn.com/images/edpborder500/I0-001/003/654/761-5.png_/jason-bonham-61.png</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Jason Bonham - Official
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/35be42a8-1e08-4b66-a252-8079b78f33ab"/>
-    <schema:location rdf:resource="http://eventful.com/Location/6ba4af87-1b39-403b-ad61-ed46b8a9715c"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-28T11:57:31.901Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/12801529-f1da-4a80-a3e2-1a970a54ca4f">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s4.evcdn.com/images/edpborder500/I0-001/003/650/291-3.jpeg_/cheech-and-chong-91.jpeg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Cheech &amp; Chong With Special Guest War
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/6f724484-8f72-4952-8955-0da4d1ced72c"/>
-    <schema:location rdf:resource="http://eventful.com/Location/e6ea6efa-c64c-44fd-9953-dd27c9644afb"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-10T11:57:31.709Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/2f5ce85f-306d-4ae5-8587-b80f512c6716">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s4.evcdn.com/images/edpborder500/I0-001/004/119/999-9.jpeg_/bob-dylan-99.jpeg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Americanarama - Festival of Music featuring Bob Dylan and His Band with Wilco, My Morning Jacket and Richard Thompson
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/944125d3-b47a-4263-b213-8a9b9a69054e"/>
-    <schema:location rdf:resource="http://eventful.com/Location/a91fdb9b-2612-47a7-956f-9293049415c6"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-11T11:57:31.834Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://java.net/URL">
-    <j.0:javaclass>java.net.URL</j.0:javaclass>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/6ff8c9b6-356f-4efe-81ac-59c32873293e">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/2675e832-5fe3-482b-846f-2c52423809bb">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94102</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">982 Market Street</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/81ff0a73-c309-4bdf-af3a-cf5a116e04c1">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/6ff8c9b6-356f-4efe-81ac-59c32873293e"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/cc2b8ab0-d301-4a3f-8dab-bbea60d6ee46">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s4.evcdn.com/images/edpborder500/I0-001/000/200/223-2.jpg_/sting-23.jpg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      STING: BACK TO BASS
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/1b9fa298-b7f2-406b-ba00-5a4a34d093fb"/>
-    <schema:location rdf:resource="http://eventful.com/Location/81ff0a73-c309-4bdf-af3a-cf5a116e04c1"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-02T11:57:31.213Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://schema.org/Event">
-    <j.0:javaclass>domain.Event</j.0:javaclass>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/6ba4af87-1b39-403b-ad61-ed46b8a9715c">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/2ab40706-434c-45aa-aeac-a242b3a9eb56"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/0e9101c3-df18-47a3-93a2-4784e7fbe1fd">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/e6ea6efa-c64c-44fd-9953-dd27c9644afb">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/94a716df-4f0d-4b56-aa1f-6816bf4bd49a"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/b2d9dd2d-fede-4f6d-bddc-94a06409fc36">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/4bb7bc59-c193-4cf7-869a-a5e8576e8b6b">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/sammy-hagar-/P0-001-000003221-1</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/5cf7d013-6b40-45d9-ba31-a863d513646b">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/0f4b74c8-1f4e-4791-b00a-009f497ee8bc"/>
-    <schema:url rdf:resource="http://java.net/URL/1710047230"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
-    <rdf:type rdf:resource="http://schema.org/Place"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://thewebsemantic.com/javaclass">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/2ab40706-434c-45aa-aeac-a242b3a9eb56">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://schema.org/Place">
-    <j.0:javaclass>domain.Location</j.0:javaclass>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/0d663c4a-60dd-4800-995c-f0a4f3f19761">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s3.evcdn.com/images/edpborder500/I0-001/004/225/654-7.jpeg_/sammy-hagar-54.jpeg</schema:image>
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
-    
-      Sammy Hagar Four Decades of Rock
-
-     in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/4bb7bc59-c193-4cf7-869a-a5e8576e8b6b"/>
-    <schema:location rdf:resource="http://eventful.com/Location/e798955d-0680-426b-8514-a977670f1c03"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-07T11:57:31.667Z</schema:startDate>
-    <rdf:type rdf:resource="http://schema.org/Event"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/d5a0d6c6-684a-4c54-8d18-85ee6fdc5369">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/aa5072bb-f777-4a92-9be3-81e9da5f08a3">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/014/130/028-2.jpeg_/conocer-stella-y-dot-stella-dot-mission-meetup-28.jpeg</schema:image>
+  <rdf:Description rdf:about="http://eventful.com/Event/d5e1d5ed-fd9c-4994-8488-5c067018c6e9">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/001/034/368-4.jpeg_/rodrigo-y-gabriela-68.jpeg</schema:image>
     <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
     <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
     
-      ¡Conocer Stella y Dot! Stella &amp; Dot Mission Meet-up
+      Rodrigo y Gabriela
 
      in San Francisco</schema:name>
-    <schema:location rdf:resource="http://eventful.com/Location/9ed4af9a-80a7-4949-a454-6df47a112fd5"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-20T11:57:31.874Z</schema:startDate>
+    <schema:performer rdf:resource="http://eventful.com/Person/c89065a6-a2b2-45a9-bb6a-d5a9d7e4ef97"/>
+    <schema:location rdf:resource="http://eventful.com/Location/44dbcea7-349c-4c6a-b47e-ae5f97914ab8"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-09T12:12:14.87Z</schema:startDate>
     <rdf:type rdf:resource="http://schema.org/Event"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://schema.org/PostalAddress">
-    <j.0:javaclass>domain.Address</j.0:javaclass>
-    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/0f4b74c8-1f4e-4791-b00a-009f497ee8bc">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
-    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
-    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
-    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/1deb8e27-dfda-48f1-8e7d-05d4172a46cb">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s3.evcdn.com/images/edpborder500/I0-001/004/190/782-0.jpeg_/weezer-82.jpeg</schema:image>
-    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+  <rdf:Description rdf:about="http://eventful.com/Event/7a898956-c1b0-4316-bfc3-1bcb5321536e">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s2.evcdn.com/images/edpborder500/I0-001/000/632/985-4.jpeg_/russell-brand-85.jpeg</schema:image>
     <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
     
-      Weezer
+      Russell Brand
 
      in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/357fe9ac-d382-4704-b87a-76840028acdb"/>
-    <schema:location rdf:resource="http://eventful.com/Location/31190e79-2e0e-4a83-9c5b-0aff453b75f8"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-25T11:57:31.777Z</schema:startDate>
+    <schema:performer rdf:resource="http://eventful.com/Person/c858ad56-17d9-4ccb-8e9c-5066d9acc9fd"/>
+    <schema:location rdf:resource="http://eventful.com/Location/b64f5768-f80f-40ac-bd43-254f47dd4e90"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-08-29T12:12:15.033Z</schema:startDate>
     <rdf:type rdf:resource="http://schema.org/Event"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/26cacb9e-f347-463c-a86f-a1f3c03316c5">
+  <rdf:Description rdf:about="http://eventful.com/Location/13d5de8c-117e-4f13-8d4b-a8323931807e">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Change.org</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/0d0bb966-84b0-49f7-98a8-02504adcc859"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/changeorg-/V0-001-006136791-4</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=383+Rhode+Island+Street,+3rd+Floor,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/240265ee-4cdb-41c1-b874-3ba63c5b6972">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/b64f5768-f80f-40ac-bd43-254f47dd4e90">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/68a1de09-64f3-4b91-95b3-5d28fbb54d7b"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/407e8533-0fe5-43a7-a9f9-a8e627bbd142">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s2.evcdn.com/images/edpborder500/I0-001/002/117/845-7.jpeg_/tracy-morgan-45.jpeg</schema:image>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Tracy Morgan
+
+     in San Francisco</schema:name>
+    <schema:performer rdf:resource="http://eventful.com/Person/0687192e-c21c-45c4-9745-70a2ebebc44f"/>
+    <schema:location rdf:resource="http://eventful.com/Location/98066549-eaf8-4c74-96c1-20adfd5988fa"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-16T12:12:14.737Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/885a211d-0bdc-4a3b-87d0-26b2ff80e8da">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">America's Cup Pavilion</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/1c181709-c3a1-4b5e-84a9-677757271bc6"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/americas-cup-pavilion-/V0-001-006693192-7</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=Pier+27+and+29,+San+Francisco,+California,+94111,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/6e7b424e-436e-477e-ac26-135bdd8c5537">
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Aloha By The Bay Raiatea Helm, Nathan Aweau and Steven Espaniola in concertProducer: Nihonmachi Street Fair, Inc.Benefit concert for the Nihonmachi Street FairTickets are $20/$40 and are available by calling 415-771-9861 or at the Aloha Warehouse at 1731 Buchanan Street in San Francisco's Japantown.- for more Information on this event call 415-771-9861 Sat~6/22/137PM</schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Aloha By The Bay
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/c05d28c1-dccb-44e1-9d34-c0109500fe55"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-22T12:12:14.759Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/0b0a0d18-7ccb-4320-816c-620494e0af87">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warfield Theatre</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/b85e6dc1-d3ab-43c2-8d63-5ed9666781bb"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/warfield-theatre-/V0-001-000893329-9</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=982+Market+Street,+San+Francisco,+California,+94102,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/0d0bb966-84b0-49f7-98a8-02504adcc859">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">383 Rhode Island Street, 3rd Floor</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/04d43e0a-ed5e-4c14-a0bb-8b379d0eef4e">
     <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s2.evcdn.com/images/edpborder500/I0-001/010/426/529-4.jpeg_/steve-miller-band-29.jpeg</schema:image>
     <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
     
       Steve Miller Band
 
      in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/00e891f8-5e52-4e5c-ab49-48ab154a6ec9"/>
-    <schema:location rdf:resource="http://eventful.com/Location/006d9834-ca78-4508-ada7-d8e2c10a79f7"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-21T11:57:31.883Z</schema:startDate>
+    <schema:performer rdf:resource="http://eventful.com/Person/ee3150bf-daf4-446e-be14-6080d3e3a790"/>
+    <schema:location rdf:resource="http://eventful.com/Location/885a211d-0bdc-4a3b-87d0-26b2ff80e8da"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-21T12:12:14.637Z</schema:startDate>
     <rdf:type rdf:resource="http://schema.org/Event"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/c8b13e41-9e75-492a-a525-fc50c64e1a33">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94110</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2475 Mission Street</schema:streetAddress>
+  <rdf:Description rdf:about="http://eventful.com/Event/8aa93263-9832-49dd-853e-1e6851cf897a">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s2.evcdn.com/images/edpborder500/I0-001/000/289/649-1.jpg_/the-dandy-warhols-49.jpg</schema:image>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      The Dandy Warhols
+
+     in San Francisco</schema:name>
+    <schema:performer rdf:resource="http://eventful.com/Person/5e41abd0-b0a2-4fef-914d-bef89f5b98e7"/>
+    <schema:location rdf:resource="http://eventful.com/Location/aa5efff1-88f3-4cc1-9a1c-a459f5ad8c5e"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-15T12:12:14.712Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/19192db0-b4ad-4ec8-88b8-42aae6eb5320">
     <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
     <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
     <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/99d49c93-e359-4dde-a9a7-b66ce6beec6b">
-    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
-    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
+  <rdf:Description rdf:about="http://eventful.com/Address/4178c833-3d0f-4817-9ef8-c51c858c0400">
     <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
     <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
     <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://java.net/URL/-554001603">
-    <rdf:type rdf:resource="http://java.net/URL"/>
+  <rdf:Description rdf:about="http://eventful.com/Address/78af11da-03b6-4b0f-9f11-61f73606c06e">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/71871901-64c1-4d46-bd0a-2d2d632d4f55">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/fall-out-boy-/P0-001-000000926-8</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
+  <rdf:Description rdf:about="http://eventful.com/Location/c05d28c1-dccb-44e1-9d34-c0109500fe55">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/67f81975-5fa3-4082-8d13-ea081229757a"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/41ec14b6-0bfa-478d-8916-dec4eac48567">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/they-might-be-giants-/P0-001-000076627-5</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Person/00e891f8-5e52-4e5c-ab49-48ab154a6ec9">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/steve-miller-band-/P0-001-000042797-8</schema:name>
-    <rdf:type rdf:resource="http://schema.org/Person"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Event/866a9509-4793-4db8-a477-626f9c0c98e9">
-    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/000/182/488-6.jpg_/counting-crows-88.jpg</schema:image>
+  <rdf:Description rdf:about="http://eventful.com/Event/5e47dc96-72d4-4f6d-a5a4-f18526ca520a">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s3.evcdn.com/images/edpborder500/I0-001/014/150/166-9.jpeg_/estonian-culture-festival-66.jpeg</schema:image>
     <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
     <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
     
-      Counting Crows with The Wallflowers
+      Estonian Culture Festival
 
      in San Francisco</schema:name>
-    <schema:performer rdf:resource="http://eventful.com/Person/cf66be73-3385-4679-9424-93851abb8c26"/>
-    <schema:location rdf:resource="http://eventful.com/Location/5cf7d013-6b40-45d9-ba31-a863d513646b"/>
-    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-18T11:57:31.687Z</schema:startDate>
+    <schema:location rdf:resource="http://eventful.com/Location/9599eb05-e217-4b21-935e-ba9c073f6ab1"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-28T12:12:14.831Z</schema:startDate>
     <rdf:type rdf:resource="http://schema.org/Event"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Address/9d313a79-fe11-45c0-acf7-92a1ddf2fc95">
+  <rdf:Description rdf:about="http://eventful.com/Address/03f7670e-8082-4c96-bb7d-93ecd0e1db95">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/a7e3ffc7-290b-4d73-ab7c-498f04b8040b">
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Ana Carolina USA TourProducer: Mont Hara, LLCTickets are $65/$75/$85 and are available at City Box Office, 180 Redwood Street, Suite 100; online at www.cityboxoffice.com or by calling 415-392-4400.- for more Information on this event call 415-392-400 Sat~6/29/138PM</schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Ana Carolina USA Tour
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/670104f7-e94d-460f-998d-e47e9f9111b8"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-29T12:12:14.949Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/aa5efff1-88f3-4cc1-9a1c-a459f5ad8c5e">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fillmore</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/a55af29b-657e-43fa-aa9a-47dedba76ba3"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/the-fillmore-/V0-001-000716689-0</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=1805+Geary+Blvd,+San+Francisco,+California,+94115,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/675b9284-b2ce-4eea-92dc-110adda2181c">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/03f7670e-8082-4c96-bb7d-93ecd0e1db95"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/0d5c22a9-4f5f-43af-bde0-641abc683fb7">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/240265ee-4cdb-41c1-b874-3ba63c5b6972"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/1c181709-c3a1-4b5e-84a9-677757271bc6">
     <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94111</schema:postalCode>
     <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pier 27 and 29</schema:streetAddress>
     <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
     <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
     <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://eventful.com/Location/c00c1536-9637-4d25-880b-3de1b44ffe1f">
-    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Warfield Theatre</schema:name>
-    <schema:address rdf:resource="http://eventful.com/Address/2675e832-5fe3-482b-846f-2c52423809bb"/>
-    <schema:url rdf:resource="http://java.net/URL/1894731649"/>
-    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=982+Market+Street,+San+Francisco,+California,+94102,+United+States&amp;hl=en</schema:map>
+  <rdf:Description rdf:about="http://eventful.com/Person/5e41abd0-b0a2-4fef-914d-bef89f5b98e7">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/the-dandy-warhols-/P0-001-000020898-4</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Person">
+    <j.0:javaclass>domain.Person</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/ed9105a7-2fd3-4c71-84ed-0d34abc59c14">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/0a0898da-2d0b-4e33-bb00-f635b4c9d0b3">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/19192db0-b4ad-4ec8-88b8-42aae6eb5320"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/240e3866-8a17-4d2a-b35a-49681ccf99b9">
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> Jounrney to the StarsProducer: Star Dance StudioTickets are $22/$27/$32 and are available at City Box Office, located at 180 Redwood Street, Suite 100 or online at www.cityboxoffice.com or by calling 415-392-4400.- for more Information on this event call 415-392-4400 Thu~6/13/13 Fri~6/14/13 Sat~6/15/13Set-up/Reh. 7PM 7PM</schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Jounrney to the Stars
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/22e0da4b-c582-478d-a6b3-fde543d8bf20"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-13T12:12:15.015Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com.hp.hpl.jena.rdf.model.impl/ModelCom/27516824">
+    <rdf:type rdf:resource="http://com.hp.hpl.jena.rdf.model.impl/ModelCom"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/98066549-eaf8-4c74-96c1-20adfd5988fa">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/4178c833-3d0f-4817-9ef8-c51c858c0400"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/263f7d6d-c339-4701-a6f7-13e5c1be6b29">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/003/375/376-5.jpeg_/laurie-berkner-76.jpeg</schema:image>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Laurie Berkner
+
+     in San Francisco</schema:name>
+    <schema:performer rdf:resource="http://eventful.com/Person/3eff256f-5bb5-491b-b925-479484138d56"/>
+    <schema:location rdf:resource="http://eventful.com/Location/0dff12dd-39d4-4c3a-a560-23dea28b3426"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-02T13:12:14.692Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/0dff12dd-39d4-4c3a-a560-23dea28b3426">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/ae3c6047-f0e1-44a5-bdd9-729b46057501"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/ae3c6047-f0e1-44a5-bdd9-729b46057501">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Person/0687192e-c21c-45c4-9745-70a2ebebc44f">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/tracy-morgan-/P0-001-000157035-6</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Person/c858ad56-17d9-4ccb-8e9c-5066d9acc9fd">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/russell-brand-/P0-001-000063361-2</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/f64aea55-95c2-4916-90c9-a9f3afdce845">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/fcbf54fc-93d6-4834-a1ef-cafcaae65fe9">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/004/182/636-7.jpeg_/they-might-be-giants-36.jpeg</schema:image>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      They Might Be Giants
+
+     in San Francisco</schema:name>
+    <schema:performer rdf:resource="http://eventful.com/Person/1093a758-94ee-4fe2-9b54-7b5503f61741"/>
+    <schema:location rdf:resource="http://eventful.com/Location/0b0a0d18-7ccb-4320-816c-620494e0af87"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-14T12:12:14.909Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Person/1093a758-94ee-4fe2-9b54-7b5503f61741">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/they-might-be-giants-/P0-001-000076627-5</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/68a1de09-64f3-4b91-95b3-5d28fbb54d7b">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/670104f7-e94d-460f-998d-e47e9f9111b8">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/6398fcfd-7692-4e07-aeae-d8a8e598ded5"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Event">
+    <j.0:javaclass>domain.Event</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Person/ae11a8a2-94c4-4758-8f74-b9f14569d980">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/paula-poundstone-/P0-001-000035700-4</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Person/c89065a6-a2b2-45a9-bb6a-d5a9d7e4ef97">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/rodrigo-y-gabriela-/P0-001-000007724-1</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/137409ba-c011-45d0-8bd2-59af6d5d622e">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Star Dance Studio presents Journey To The Stars
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/db57f6f3-ac6d-40be-ab28-0b26327b396b"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-14T12:12:14.964Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/47a1a5c8-c566-4ec2-9f4d-c111d494e81e">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/014/202/732-2.jpeg_/san-francisco-kristina-orbakait%C4%97-2013-32.jpeg</schema:image>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      San Francisco – Kristina Orbakaitė 2013
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/fda056a1-2b59-48d1-b684-352ad3af1a55"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-11-03T13:12:14.891Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/22e0da4b-c582-478d-a6b3-fde543d8bf20">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/78af11da-03b6-4b0f-9f11-61f73606c06e"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/6c7a7ea1-0bb1-491f-b0a7-5ece9dc596b1">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/baf88bc0-cf1e-4fc8-8c32-57d625918b3b"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/2e690027-c1dd-4d36-b4c5-892bc81fcd81">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s4.evcdn.com/images/edpborder500/I0-001/014/093/667-3.png_/academy-art-university-annual-spring-show-open-hou-67.png</schema:image>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You're Invited to Our Annual Spring Show Open House!&#xD;
+For Prospective Students and Family&#xD;
+Explore a showcase of award-winning student work in 21 areas of art and design. &#xD;
+WHEN: &#xD;
+Saturday, June 1, 2013&#xD;
+9AM-5PM (Ongoing)&#xD;
+WHERE: &#xD;
+Palace of Fine Arts&#xD;
+3601 Lyon Street&#xD;
+San Francisco, CA 94123&#xD;
+Courtesy Shuttles will be Available from 79 New Montgomery St. to Palace of Fine Arts from 9AM-5PM (Ongoing)&#xD;
+WHAT:&#xD;
+Let the Possibilities Inspire Your Imagination at this Exclusive Event:&#xD;
+•	See Award-Winning Student Work from All 21 Areas of Art &amp; Design&#xD;
+•	Meet Faculty &amp; Get Portfolio Feedback (Optional)&#xD;
+•	Learn About Housing, Campus Life, Transferring and More&#xD;
+•	Attend Financial Aid Workshops and Meet with Financial Aid Representatives&#xD;
+•	Enroll in Pre-College Art Experience Programs for High School Students &#xD;
+•	Complete Your Application &amp; Register for Classes with an Admissions Representative&#xD;
+RSVP Today at www.academyart.edu/events or Call 800.544.2787. Admission is FREE!</schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Academy of Art University Annual Spring Show Open House
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/0a0898da-2d0b-4e33-bb00-f635b4c9d0b3"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-06-01T12:12:14.783Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://com.hp.hpl.jena.rdf.model.impl/ModelCom">
+    <j.0:javaclass>com.hp.hpl.jena.rdf.model.impl.ModelCom</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/784e7e02-f3af-4729-8172-1a217d3f70d0">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94110</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3225 22nd St</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/db57f6f3-ac6d-40be-ab28-0b26327b396b">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palace of Fine Arts</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/5dcd1699-2365-42b2-9ee6-9b7e16cd6b27"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/palace-of-fine-arts-/V0-001-000392298-8</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3301+Lyon+Street,+San+Francisco,+California,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/97c0e9f4-04d0-4753-9a99-9b2188f58b56">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Ana Carolina Concert
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/0d5c22a9-4f5f-43af-bde0-641abc683fb7"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-29T12:12:14.996Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://thewebsemantic.com/javaclass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/663e53a6-5cae-4045-87f1-14bce66eff73">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s3.evcdn.com/images/edpborder500/I0-001/000/371/238-1.jpg_/paula-poundstone-38.jpg</schema:image>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*** Tickets On Sale 4/19***&#xD;
+Fri, December 20, 2013 8:00 PM (Doors open at: 7:00 PM)&#xD;
+Paula Poundstone- 4th Annual Ha Ha Ho Ho Holiday Comedy Show!&#xD;
+Palace of Fine Arts Theatre 3301 Lyon Street, San Francisco, CA 94123 (415-567-6642 )&#xD;
+All Ages. $35.00 Advance. $40.00 Day Of Show. Tickets available from TicketMaster&#xD;
+Presale Password: PICKLES&#xD;
+Ticket prices range from $35.00 in advance. All tickets $5.00 higher day of show!</schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Paula Poundstone - 4th Annual Ha Ha Ho Ho Holiday Comedy Show!
+
+     in San Francisco</schema:name>
+    <schema:performer rdf:resource="http://eventful.com/Person/ae11a8a2-94c4-4758-8f74-b9f14569d980"/>
+    <schema:location rdf:resource="http://eventful.com/Location/6c7a7ea1-0bb1-491f-b0a7-5ece9dc596b1"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-12-20T13:12:14.797Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/44dbcea7-349c-4c6a-b47e-ae5f97914ab8">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masonic Auditorium</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/89df6822-a54f-480b-a873-ce3a095a87c1"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/masonic-auditorium-/V0-001-000231908-0</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=1111+California+St,+San+Francisco,+California,+94108,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/Place">
+    <j.0:javaclass>domain.Location</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/6398fcfd-7692-4e07-aeae-d8a8e598ded5">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://schema.org/PostalAddress">
+    <j.0:javaclass>domain.Address</j.0:javaclass>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Person/3eff256f-5bb5-491b-b925-479484138d56">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/laurie-berkner-/P0-001-000070444-2</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/e8866320-4f81-45ba-b3a1-c76522d5c991">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/014/141/436-3.gif_/miss-national-asia-pageant-2013-36.gif</schema:image>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      MISS NATIONAL ASIA PAGEANT 2013
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/675b9284-b2ce-4eea-92dc-110adda2181c"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-06T12:12:14.771Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/5dcd1699-2365-42b2-9ee6-9b7e16cd6b27">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/0b0a7b60-258a-4ca5-b01c-db7bcbc90d0d">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Make-Out Room</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/784e7e02-f3af-4729-8172-1a217d3f70d0"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/makeout-room-/V0-001-000165866-3</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=3225+22nd+St,+San+Francisco,+California,+94110,+United+States&amp;hl=en</schema:map>
+    <rdf:type rdf:resource="http://schema.org/Place"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/b85e6dc1-d3ab-43c2-8d63-5ed9666781bb">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94102</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">982 Market Street</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/a55af29b-657e-43fa-aa9a-47dedba76ba3">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94115</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1805 Geary Blvd</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/89df6822-a54f-480b-a873-ce3a095a87c1">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94108</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1111 California St</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/0ef9d9bf-950a-457c-9278-a357c0713989">
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Mike Coykendall (Official) - Denim Wedding
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/0b0a7b60-258a-4ca5-b01c-db7bcbc90d0d"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-09-15T12:12:14.931Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/baf88bc0-cf1e-4fc8-8c32-57d625918b3b">
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3301 Lyon Street</schema:streetAddress>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/3ecb8e88-3614-44e4-a204-03e63333028f">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/014/192/016-5.jpeg_/themechanicsofmagic7gamedesigninsights-christina-w-16.jpeg</schema:image>
+    <schema:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string"> </schema:description>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      "The Mechanics of Magic: 7 Game Design Insights" by Christina Wodtke
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/13d5de8c-117e-4f13-8d4b-a8323931807e"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-07-09T12:12:14.818Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Event/9a55f4ab-378b-475e-a5c7-1ca34fca8d65">
+    <schema:image rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://s1.evcdn.com/images/edpborder500/I0-001/013/576/144-6.jpeg_/father-john-misty-44.jpeg</schema:image>
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">
+    
+      Father John Misty
+
+     in San Francisco</schema:name>
+    <schema:location rdf:resource="http://eventful.com/Location/32db57b3-799d-4496-bc18-cbde9fa524d7"/>
+    <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-21T12:12:14.982Z</schema:startDate>
+    <rdf:type rdf:resource="http://schema.org/Event"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Person/ee3150bf-daf4-446e-be14-6080d3e3a790">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/performers/steve-miller-band-/P0-001-000042797-8</schema:name>
+    <rdf:type rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Address/4d6aaecd-eda8-4fc1-bb2d-435eeefda38e">
+    <schema:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">94115</schema:postalCode>
+    <schema:streetAddress rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1805 Geary Blvd</schema:streetAddress>
+    <schema:addressRegion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">California</schema:addressRegion>
+    <schema:addressLocality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">San Francisco</schema:addressLocality>
+    <rdf:type rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://eventful.com/Location/32db57b3-799d-4496-bc18-cbde9fa524d7">
+    <schema:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Fillmore</schema:name>
+    <schema:address rdf:resource="http://eventful.com/Address/4d6aaecd-eda8-4fc1-bb2d-435eeefda38e"/>
+    <schema:url rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://eventful.com/sanfrancisco_ca/venues/the-fillmore-/V0-001-000716689-0</schema:url>
+    <schema:map rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://maps.google.com/maps?q=1805+Geary+Blvd,+San+Francisco,+California,+94115,+United+States&amp;hl=en</schema:map>
     <rdf:type rdf:resource="http://schema.org/Place"/>
   </rdf:Description>
 </rdf:RDF>
